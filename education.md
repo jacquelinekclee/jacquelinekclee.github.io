@@ -6,13 +6,13 @@ nav_order: 2
 🎓 Education
 # B.S. in Data Science | Minor in Economics | Minor in Business
 
+<img src="{{ /assets/hdsi-white.png | relative_url }}" alt="">
+
 ![ucsd](/assets/hdsi-white.png)
 
 Graduated magna cum laude: March 2023
 
-## Courses
-
-### Relevant Data Science Courses
+## Relevant Data Science Courses
 
 |Course|Skills and Technologies|
 |---|---|
@@ -25,7 +25,7 @@ Graduated magna cum laude: March 2023
 | Fairness and Algorithmic Decision Making |Python - Pandas, Scikit-learn; Jupyter Notebooks |
 
 
-### Relevant Machine Learning Courses
+## Relevant Machine Learning Courses
 
 |Course|Skills and Technologies|
 |---|---|
@@ -35,7 +35,7 @@ Graduated magna cum laude: March 2023
 | Probabilistic Modeling and Machine Learning |MATLAB |
 | Business Analytics |Microsoft Excel |
 
-### Relevant Stats Courses
+## Relevant Statistics Courses
 
 |Course|Skills and Technologies|
 |---|---|
