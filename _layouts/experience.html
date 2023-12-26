@@ -1,11 +1,9 @@
 
 <div class="experience">
-    <link rel="stylesheet" href="{{ site.baseurl }}/_sass/custom/experience.scss">
     <hr>
     <div>
         {% if page.photo %}
-        <!-- style="border-radius: 50%; height: 100px; float: left;" -->
-            <img 
+            <img style="border-radius: 50%; height: 100px; float: left;"
             class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
         {% endif %}
 
@@ -13,7 +11,7 @@
             <a href="{{ page.link }}">{{ page.company }}</a>
         </h2>
 
-        <div class="experience-title"><b>{{ page.experience-title }}</b></div>
+        <div class="label label-purple" style="background-color: #b188fc;"><b>{{ page.experience-title }}</b></div>
 
         <!-- <h2 class = "experience-title">
             {{page.experience-title}}
