@@ -2,16 +2,13 @@
 layout: page
 title: 🎓 Education 
 nav_order: 2
-has_children: true
 ---
 
 <p style = "float: right"> 
     🎓 Education    
 </p>
 
-{:.no_toc}
-
-<img src="{{site.baseurl}}/assets/hdsi-white.png" alt="">
+<img src="{{site.baseurl}}/assets/hdsi-white.png" style="width: 50%; height: auto;" alt="">
 
 <br>
 

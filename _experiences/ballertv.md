@@ -11,5 +11,6 @@ accomplishment1: Coded Ruby on Rails program to clean basketball game data, extr
 accomplishment2: Designed dashboards in Redash to visualize travel cost metrics and asset tracking data, empowering product managers and leaders to make informed cost-saving decisions.
 accomplishment3: Automated timely communication by programming a workflow that sends text messages to contractors via the Twilio API and Active Record (Rails) when work schedules change.
 technologies: Ruby (Rails), PostgreSQL, Git, GitHub, Jira
+parent: 💼 Work Experience
 ---
 
