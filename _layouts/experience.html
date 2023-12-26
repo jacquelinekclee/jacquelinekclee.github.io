@@ -1,14 +1,10 @@
 
 <div class="experience">
     <hr>
-    
     <div>
     {% if page.photo %}
-        <img class="company-logo" src="{{ page.photo | relative_url }}" alt="">
+        <img class="company-logo" src="{{site.baseurl}}{{page.photo}}" alt="wtf">
     {% endif %}
-
-
-
     <!-- <div style="float: left">
         <h2 class="company">
             <a href="{{ page.link }}">{{ page.company }}</a>
@@ -25,11 +21,9 @@
 
     <h2 class="company">
         <a href="{{ page.link }}">{{ page.company }} | </a>
+        <p class="label label-purple"> <b> {{ page.experience-title }}</b></p> 
     </h2>
-        
-    <h2>
-        <p class="label label-purple"> <b> {{ page.experience-title }}</b></p>  
-    </h2>
+   
 
     <!-- <p>
         <span style="float:left;">

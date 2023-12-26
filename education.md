@@ -6,7 +6,7 @@ nav_order: 2
 🎓 Education
 # B.S. in Data Science | Minor in Economics | Minor in Business
 
-<img src="{{ /assets/hdsi-white.png | relative_url }}" alt="">
+<img src="{{site.baseurl}}{{/assets/hdsi-white.png}}" alt="">
 
 ![ucsd](/assets/hdsi-white.png)
 

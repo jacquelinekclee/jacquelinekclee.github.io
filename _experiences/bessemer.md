@@ -3,7 +3,7 @@ company: Bessemer Venture Partners
 experience-title: Fellow
 link: https://www.bvp.com/bessemer-fellows
 photo: ../assets/company-logos/bess.jpg
-location: Remote, CA
+location: San Francisco, CA
 startdate: Jun 2022
 enddate: Present
 
