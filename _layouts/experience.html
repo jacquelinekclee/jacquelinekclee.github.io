@@ -3,14 +3,11 @@
     <hr>
     <div>
         {% if page.photo %}
-            <img style="border-radius: 50%; height: 100px; float: left;"
+            <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
             class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
         {% endif %}
 
-        {% if page.photo %}
-            <img style="border-radius: 50%; height: 100px; float: left;"
-            class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
-        {% endif %}
+        <div style="clear: both;"></div>
 
         <h2 class="company">
             <a href="{{ page.link }}">{{ page.company }}</a>
@@ -22,9 +19,9 @@
             {{page.experience-title}}
         </h2> -->
 
-        <p> 📆 {{ page.startdate }} - {{ page.enddate }} | 
+        <p> 📆 {{ page.startdate }} - {{ page.enddate }}
             {% if page.location %}
-                📍 {{ page.location }}
+                &emsp;📍 {{ page.location }}
              {% endif %}
         </p>
 
@@ -35,11 +32,38 @@
         
 
         {% if page.role %}
-        <h4>My Role</h4>
+        <h3>My Role</h3>
         <p title="My Role">👩🏻‍💻 {{ page.role }}</p>
         {% endif %}
 
-        <h4>Key Accomplishments</h4>
+        {% if page.technologies %}
+
+            <!-- <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
+            class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
+
+            if technologies loop through the string and show image of each one?
+
+            {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
+            {% for staffer in instructors %}
+            {{ staffer }}
+            {% endfor %}
+
+            {% assign teaching_assistants = site.staffers | where: 'role', 'Teaching Assistant' %}
+            {% assign num_teaching_assistants = teaching_assistants | size %}
+            {% if num_teaching_assistants != 0 %}
+
+            ## Teaching Assistants
+
+            {% for staffer in teaching_assistants %}
+            {{ staffer }}
+            {% endfor %}
+            {% endif %} -->
+
+            <h3>Technologies Used</h3>
+            <p title="Technologies Used">⚙️ {{ page.technologies }}</p>
+        {% endif %}
+
+        <h3>Key Accomplishments</h3>
 
         {% if page.accomplishment1 %}
         <p title="accomplishment1">✅ {{ page.accomplishment1 }}</p>
@@ -51,11 +75,6 @@
 
         {% if page.accomplishment3 %}
         <p title="accomplishment3">✅ {{ page.accomplishment3 }}</p>
-        {% endif %}
-
-        {% if page.technologies %}
-        <h4>Technologies Used</h4>
-        <p title="Technologies Used">⚙️ {{ page.technologies }}</p>
         {% endif %}
       
     </div>

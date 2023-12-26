@@ -5,7 +5,7 @@ nav_order: 2
 has_children: true
 ---
 🎓 Education
-<img src="{{site.baseurl}}/assets/hdsi-white.png" alt="">
+<img src="{{site.baseurl}}/assets/hdsi-white.png" style="float: right" alt="">
 
 # B.S. in Data Science | Minor in Economics | Minor in Business
 
