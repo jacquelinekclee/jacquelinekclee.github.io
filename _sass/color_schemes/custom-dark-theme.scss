@@ -3,19 +3,4 @@
 $link-color: #b188fc;
 $nav-width: 216px;
 $content-width: 1024px;
-.site-nav, .site-header, .site-footer {
-    width: 100%;
-  }
-  
-  .side-bar {
-    @include mq(lg) {
-      width: $nav-width;
-    }
-  }
-  
-  .main {
-    @include mq(lg) {
-      margin-left: $nav-width;
-    }
-  }
 $label-purple: #b188fc;
