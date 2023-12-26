@@ -6,7 +6,7 @@ nav_order: 2
 🎓 Education
 # B.S. in Data Science | Minor in Economics | Minor in Business
 
-![ucsd](./assets/hdsi-white.png)
+![ucsd](assets/hdsi-white.png)
 
 Graduated magna cum laude: March 2023
 
@@ -36,6 +36,7 @@ Graduated magna cum laude: March 2023
 | Business Analytics |Microsoft Excel |
 
 ### Relevant Stats Courses
+|Course|Skills and Technologies|
 |---|---|
 | Econometrics A, B, and C |Stata |
 | Data Analysis and Inference |Python, R |

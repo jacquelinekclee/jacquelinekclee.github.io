@@ -2,7 +2,7 @@
 company: BallerTV
 title: Software Engineer Intern
 link: https://www.ballertv.com/about-us
-photo: ../../assets/company-logos/ballertv.jpg
+photo: ../assets/company-logos/ballertv.jpg
 location: Remote, CA
 role: 1st software engineering and 1st startup experience. Allowed me to learn a lot of new skills by getting my hands dirty and working with a variety of teams. Did backend development on the Engineering team, data analytics and engineering for Product Managers/Leaders, and software engineering and data-centric work with the Automation (Data Science) team.
 accomplishment1: Coded Ruby on Rails program to clean basketball game data, extract and calculating statistics, and generate custom headlines for 1 million games with Generative AI API for subscribers, driving product engagement.

@@ -5,7 +5,7 @@
     {% endif %}
     <div>
       <h2 class="company">
-        <a href=page.link>{{ page.company }}</a>
+        <a href="{{ page.link }}">{{ page.company }}</a>
         {% if page.title %}
         <div class="title"><b>{{ page.title }}</b></div>
         {% endif %}
@@ -29,6 +29,7 @@
       <p title="accomplishment3">✅ {{ page.accomplishment3 }}</p>
   
   
+      <h4>Technologies Used</h4>
       {% if page.technologies %}
       <p title="Technologies Used">⚙️ {{ page.technologies }}</p>
       {% endif %}
