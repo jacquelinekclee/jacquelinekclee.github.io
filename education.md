@@ -10,9 +10,6 @@ nav_order: 2
 
 Graduated magna cum laude: March 2023
 
-test
-{: .label .label-purple }
-
 ## Courses
 
 ### Relevant Data Science Courses

@@ -7,10 +7,14 @@ nav_order: 2
 
 # 💼 Work Experience
 
-{% assign experiences = site.experiences %}
+<!-- {% assign experiences = site.experiences %}
 {% for exp in experiences %}
 {{ exp }}
-{% endfor %}
+{% endfor %} -->
+
+
+
+{{ site.experiences.ibm }}
 
 <!-- {% assign teaching_assistants = site.staffers | where: 'role', 'Teaching Assistant' %}
 {% assign num_teaching_assistants = teaching_assistants | size %}
