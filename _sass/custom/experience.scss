@@ -1,0 +1,37 @@
+.experience {
+    display: flex;
+    margin: $sp-4;
+  
+    .company-logo {
+      border-radius: 50%;
+      height: 100px;
+      margin-right: $sp-4;
+    }
+  
+    p,
+    .company {
+      margin: $sp-1 !important;
+    }
+  
+    .title {
+      @extend .label, .text-grey-dk-100, .bg-grey-lt-200;
+      text-align: center;
+      border-radius: 4px;
+    }
+  
+    .staffer-meta {
+      @extend .text-grey-dk-000;
+    }
+  }
+  
+  .badge-domains {
+    display: inline-block ;
+    background-color: #0e5cc1;
+    font-size: 12px;
+    color: white;
+    padding: 2px 4px;
+    text-align: center;
+    border-radius: 4px;
+    // width: 45px;
+  }
+  

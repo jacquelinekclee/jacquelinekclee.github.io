@@ -2,7 +2,7 @@ title: Jacqueline Lee's Portfolio
 description: Jacqueline Lee's Projects and Background
 author: Jacqueline Lee
 theme: just-the-docs
-color_scheme: dark
+color_scheme: custom-dark-theme
 
 url: https://jacquelinekclee.github.io/new-portfolio
 
@@ -19,14 +19,11 @@ aux_links:
   GitHub:
     - 'https://github.com/jacquelinekclee'
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
-
 # Collections for website data
 collections:
   experiences:
-  projects:
-  skills:
+  # projects:
+  # skills:
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -35,16 +32,16 @@ defaults:
     values:
       layout: experience
       subpath: '/assets/company-logos/'
-  - scope:
-      path: ''
-      type: projects
-    values:
-      layout: project
-      subpath: '/assets/project-images/'
-  - scope:
-      path: ''
-      type: skills
-    values:
-      layout: skill
-      subpath: '/assets/skill-logos/'
+  # - scope:
+  #     path: ''
+  #     type: projects
+  #   values:
+  #     layout: project
+  #     subpath: '/assets/project-images/'
+  # - scope:
+  #     path: ''
+  #     type: skills
+  #   values:
+  #     layout: skill
+  #     subpath: '/assets/skill-logos/'
  
