@@ -6,16 +6,31 @@
     {% if page.photo %}
         <img class="company-logo" src="{{ page.photo | relative_url }}" alt="">
     {% endif %}
-      <h2 class="company">
+
+    <div style="float: left">
+        <h2 class="company">
+            <a href="{{ page.link }}">{{ page.company }}</a>
+        </h2>
+    </div>
+    <div style="float: right">
+        <h2>
+            <p class="label label-purple"> <b> {{ page.experience-title }}</b></p>
+        </h2>
+        
+    </div>
+    <div style="clear: both;"></div>
+    
+
+      <!-- <h2 class="company">
         <a href="{{ page.link }}">{{ page.company }}</a>
         
         <br>
 
         <p class="label label-purple"> <b> {{ page.experience-title }}</b></p>
       
-      </h2>
+      </h2> -->
 
-    <p>
+    <!-- <p>
         <span style="float:left;">
         {% if page.location %}
                 <p title="Location">📍 {{ page.location }}</p>
@@ -24,7 +39,19 @@
         <span style="float:right;">
             <p title="dates">📆 {{ page.startdate }} - {{ page.enddate }}</p>
         </span>
-    </p>
+    </p> -->
+
+
+    <div style="float: left">
+        {% if page.location %}
+                <p title="Location">📍 {{ page.location }}</p>
+        {% endif %}
+    </div>
+    <div style="float: right">
+        <p title="dates">📆 {{ page.startdate }} - {{ page.enddate }}</p>
+    </div>
+    <div style="clear: both;"></div>
+
 
 
 
