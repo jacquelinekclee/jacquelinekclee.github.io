@@ -4,8 +4,16 @@ title: 🎓 Education
 nav_order: 2
 has_children: true
 ---
-🎓 Education
-<img src="{{site.baseurl}}/assets/hdsi-white.png" style="float: right" alt="">
+
+<p style = "float: right"> 
+    🎓 Education    
+</p>
+
+{:.no_toc}
+
+<img src="{{site.baseurl}}/assets/hdsi-white.png" alt="">
+
+<br>
 
 # B.S. in Data Science | Minor in Economics | Minor in Business
 

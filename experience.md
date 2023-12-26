@@ -5,10 +5,11 @@ description: A listing of all relevant work experience
 nav_order: 1
 ---
 
-# 💼 Work Experience
+<p style = "float: right"> 
+    💼 Work Experience    
+</p>
 
 {% assign experiences = site.experiences %}
 {% for exp in experiences %}
     {{ exp }}
-    {{ console.log(exp.company)}}
 {% endfor %}

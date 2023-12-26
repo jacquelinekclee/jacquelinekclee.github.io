@@ -7,17 +7,11 @@
             class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
         {% endif %}
 
-        <div style="clear: both;"></div>
-
         <h2 class="company">
             <a href="{{ page.link }}">{{ page.company }}</a>
         </h2>
 
         <div class="label label-purple" style="background-color: #b188fc;"><b>{{ page.experience-title }}</b></div>
-
-        <!-- <h2 class = "experience-title">
-            {{page.experience-title}}
-        </h2> -->
 
         <p> 📆 {{ page.startdate }} - {{ page.enddate }}
             {% if page.location %}
@@ -25,11 +19,7 @@
              {% endif %}
         </p>
 
-
-        <!-- {% if page.location %}
-            <p title="Location">📍 {{ page.location }}</p>
-        {% endif %} -->
-        
+        <div style="clear: both;"></div>
 
         {% if page.role %}
         <h3>My Role</h3>
@@ -37,28 +27,6 @@
         {% endif %}
 
         {% if page.technologies %}
-
-            <!-- <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
-            class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
-
-            if technologies loop through the string and show image of each one?
-
-            {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
-            {% for staffer in instructors %}
-            {{ staffer }}
-            {% endfor %}
-
-            {% assign teaching_assistants = site.staffers | where: 'role', 'Teaching Assistant' %}
-            {% assign num_teaching_assistants = teaching_assistants | size %}
-            {% if num_teaching_assistants != 0 %}
-
-            ## Teaching Assistants
-
-            {% for staffer in teaching_assistants %}
-            {{ staffer }}
-            {% endfor %}
-            {% endif %} -->
-
             <h3>Technologies Used</h3>
             <p title="Technologies Used">⚙️ {{ page.technologies }}</p>
         {% endif %}
