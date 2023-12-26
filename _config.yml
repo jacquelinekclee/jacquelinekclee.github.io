@@ -23,7 +23,8 @@ aux_links:
 # Collections for website data
 collections:
   experiences:
-    nav_fold: true
+    permalink: /:collection/:path/
+    output: true
     order:
       - ibm.md
       - ballertv.md
@@ -32,6 +33,12 @@ collections:
   # projects:
   # skills:
 # Default layouts for each collection type
+
+just-the-docs:
+  collections:
+    experiences:
+      nav_fold: true
+    
 defaults:
   - scope:
       path: ''

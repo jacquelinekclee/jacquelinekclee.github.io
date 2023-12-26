@@ -3,87 +3,47 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/_sass/custom/experience.scss">
     <hr>
     <div>
-    {% if page.photo %}
-        <img style="border-radius: 50%; height: 100px; float: left;" 
-        class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
-    {% endif %}
-    <!-- <div style="float: left">
+        {% if page.photo %}
+            <img style="border-radius: 50%; height: 100px; float: left;" 
+            class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
+        {% endif %}
+
         <h2 class="company">
             <a href="{{ page.link }}">{{ page.company }}</a>
         </h2>
-    </div>
-    <div style="float: right">
-        <h2>
-            <p class="label label-purple"> <b> {{ page.experience-title }}</b></p>
+
+        <h2 class = "experience-title">
+            {{page.experience-title}}
         </h2>
+        {% if page.location %}
+                    <p title="Location">📍 {{ page.location }}</p>
+        {% endif %}
         
-    </div>
-    <div style="clear: both;"></div> -->
-    
-
-    <h2 class="company">
-        <a href="{{ page.link }}">{{ page.company }}</a>
-        <p class="label label-purple"> <b> {{ page.experience-title }}</b></p> 
-    </h2>
-    
-    <!-- <p>
-        <span style="float:left;">
-        {% if page.location %}
-                <p title="Location">📍 {{ page.location }}</p>
-        {% endif %}
-        </span>
-        <span style="float:right;">
-            <p title="dates">📆 {{ page.startdate }} - {{ page.enddate }}</p>
-        </span>
-    </p> -->
-
-
-    <div style="float: left">
-        {% if page.location %}
-                <p title="Location">📍 {{ page.location }}</p>
-        {% endif %}
-    </div>
-    <div style="float: right">
         <p title="dates">📆 {{ page.startdate }} - {{ page.enddate }}</p>
-    </div>
-    <div style="clear: both;"></div>
 
+        {% if page.role %}
+        <h4>My Role</h4>
+        <p title="My Role">👩🏻‍💻 {{ page.role }}</p>
+        {% endif %}
 
+        <h4>Key Accomplishments</h4>
 
+        {% if page.accomplishment1 %}
+        <p title="accomplishment1">✅ {{ page.accomplishment1 }}</p>
+        {% endif %}
 
-      <!-- {% if page.location %}
-      <p title="Location">📍 {{ page.location }}</p>
-      {% endif %} -->
+        {% if page.accomplishment2 %}
+        <p title="accomplishment2">✅ {{ page.accomplishment2 }}</p>
+        {% endif %}
 
-      <!-- <p title="dates">📆 {{ page.startdate }} - {{ page.enddate }}</p> -->
-    
-      {% if page.role %}
-      <h4>My Role</h4>
-      <p title="My Role">👩🏻‍💻 {{ page.role }}</p>
-      {% endif %}
-  
-      <h4>Key Accomplishments</h4>
+        {% if page.accomplishment3 %}
+        <p title="accomplishment3">✅ {{ page.accomplishment3 }}</p>
+        {% endif %}
 
-      {% if page.accomplishment1 %}
-      <p title="accomplishment1">✅ {{ page.accomplishment1 }}</p>
-      {% endif %}
-
-      {% if page.accomplishment2 %}
-      <p title="accomplishment2">✅ {{ page.accomplishment2 }}</p>
-      {% endif %}
-
-      {% if page.accomplishment3 %}
-      <p title="accomplishment3">✅ {{ page.accomplishment3 }}</p>
-      {% endif %}
-  
-      {% if page.technologies %}
-      <h4>Technologies Used</h4>
-      <p title="Technologies Used">⚙️ {{ page.technologies }}</p>
-      {% endif %}
-  
-    
-  
-      <!-- {{ content }} -->
+        {% if page.technologies %}
+        <h4>Technologies Used</h4>
+        <p title="Technologies Used">⚙️ {{ page.technologies }}</p>
+        {% endif %}
       
     </div>
 </div>
