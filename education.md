@@ -8,9 +8,7 @@ nav_order: 2
 
 <img src="{{site.baseurl}}{{/assets/hdsi-white.png}}" alt="">
 
-![ucsd](/assets/hdsi-white.png)
-
-Graduated magna cum laude: March 2023
+Test Graduated magna cum laude: March 2023
 
 ## Relevant Data Science Courses
 

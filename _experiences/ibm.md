@@ -2,7 +2,7 @@
 company: IBM
 experience-title: Business Automation Technology Sales Engineer
 link: https://www.ibm.com/automation
-photo: ../assets/company-logos/ibm.svg
+photo: /assets/company-logos/ibm.svg
 location: San Francisco, CA
 startdate: Sept 2023
 enddate: Present

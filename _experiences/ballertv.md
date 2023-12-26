@@ -2,7 +2,7 @@
 company: BallerTV
 experience-title: Software Engineer Intern
 link: https://www.ballertv.com/about-us
-photo: ../assets/company-logos/ballertv.jpg
+photo: /assets/company-logos/ballertv.jpg
 location: Remote, CA
 startdate: Jun 2022
 enddate: Aug 2022

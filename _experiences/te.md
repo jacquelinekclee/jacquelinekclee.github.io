@@ -2,7 +2,7 @@
 company: TE Connectivity
 experience-title: Data Science Intern
 link: https://www.te.com/usa-en/about-te/our-company.html
-photo: ../assets/company-logos/te.png
+photo: /assets/company-logos/te.png
 location: Remote, CA
 startdate: Jun 2021
 enddate: Jun 2022
