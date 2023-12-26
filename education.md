@@ -5,7 +5,7 @@ nav_order: 2
 ---
 
 <p style = "float: right"> 
-    🎓 Education    
+    <h4>🎓 Education</h4>
 </p>
 
 <img src="{{site.baseurl}}/assets/hdsi-white.png" style="width: 50%; height: auto;" alt="">

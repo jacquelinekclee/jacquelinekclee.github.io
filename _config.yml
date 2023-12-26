@@ -22,6 +22,14 @@ aux_links:
 
 aux_links_new_tab: true
 
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
 # Collections for website data
 collections:
   experiences:
