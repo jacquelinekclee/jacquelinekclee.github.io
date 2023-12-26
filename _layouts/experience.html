@@ -1,12 +1,11 @@
-<html>
-<head>
-<link rel="stylesheet" href="{{ site.baseurl }}/_sass/custom/experience.scss">
-</head>
+
 <div class="experience">
+    <link rel="stylesheet" href="{{ site.baseurl }}/_sass/custom/experience.scss">
     <hr>
     <div>
     {% if page.photo %}
-        <img class="photo" src="{{site.baseurl}}{{page.photo}}" alt="wtf">
+        <img style="border-radius: 50%; height: 100px; float: left;" 
+        class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
     {% endif %}
     <!-- <div style="float: left">
         <h2 class="company">
@@ -88,4 +87,3 @@
       
     </div>
 </div>
-</html>
