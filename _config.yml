@@ -1,8 +1,50 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Jacqueline Lee's Portfolio
+description: Jacqueline Lee's Projects and Background
+author: Jacqueline Lee
 theme: just-the-docs
+color_scheme: dark
 
-url: https://just-the-docs.github.io
+url: https://jacquelinekclee.github.io/new-portfolio
+
+search_enabled: true
+heading_anchors: true
+permalink: pretty
+aux_links:
+  Resume:
+  - 'https://jacquelinekclee.github.io/new-portfolio/jacqueline_lee_resume_122023.pdf'
+  LinkedIn:
+    - 'https://www.linkedin.com/in/jacqueline-kc-lee/'
+  Email Me:
+    - 'mailto:jacquelinekclee'
+  GitHub:
+    - 'https://github.com/jacquelinekclee'
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+# Collections for website data
+collections:
+  experiences:
+  projects:
+  skills:
+# Default layouts for each collection type
+defaults:
+  - scope:
+      path: ''
+      type: experiences
+    values:
+      layout: experience
+      subpath: '/assets/company-logos/'
+  - scope:
+      path: ''
+      type: projects
+    values:
+      layout: project
+      subpath: '/assets/project-images/'
+  - scope:
+      path: ''
+      type: skills
+    values:
+      layout: skill
+      subpath: '/assets/skill-logos/'
+ 
