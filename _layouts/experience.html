@@ -7,17 +7,17 @@
       <h2 class="company">
         <a href="{{ page.link }}">{{ page.company }}</a>
         
-        <div class="experience-title">{{ page.experience-title }}</div>
+        <!-- <div class="experience-title">{{ page.experience-title }}</div> -->
 
         <!-- <div class="experience-title">{{ page.experience-title }}</div> -->
         
 
-        {{ page.experience-title }}
-        {: .label .label-purple }
+
+        <p class="label label-purple">{{ page.experience-title }}</p>
       
       </h2>
 
-      <p style="text-align:left;">
+      <p style="float:left;">
         {% if page.location %}
             <p title="Location">📍 {{ page.location }}</p>
         {% endif %}
@@ -25,6 +25,8 @@
             <p title="dates">📆 {{ page.startdate }} - {{ page.enddate }}</p>
         </span>
     </p>
+
+
 
       <!-- {% if page.location %}
       <p title="Location">📍 {{ page.location }}</p>
@@ -61,4 +63,4 @@
       <!-- {{ content }} -->
       
     </div>
-  </div>
+</div>
