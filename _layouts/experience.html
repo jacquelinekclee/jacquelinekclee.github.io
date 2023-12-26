@@ -7,19 +7,17 @@
       <h2 class="company">
         <a href="{{ page.link }}">{{ page.company }}</a>
         
-        <!-- <div class="experience-title">{{ page.experience-title }}</div> -->
+        <br>
 
-        <!-- <div class="experience-title">{{ page.experience-title }}</div> -->
-        
-
-
-        <p class="label label-purple">{{ page.experience-title }}</p>
+        <p class="label label-purple"> <b> {{ page.experience-title }}</b></p>
       
       </h2>
 
-      <p style="float:left;">
+    <p>
         {% if page.location %}
-            <p title="Location">📍 {{ page.location }}</p>
+            <span style="float:right;">
+                <p title="Location">📍 {{ page.location }}</p>
+            </span>
         {% endif %}
         <span style="float:right;">
             <p title="dates">📆 {{ page.startdate }} - {{ page.enddate }}</p>

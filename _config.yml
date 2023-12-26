@@ -23,6 +23,12 @@ aux_links:
 # Collections for website data
 collections:
   experiences:
+    nav_fold: true
+    order:
+      - ibm.md
+      - ballertv.md
+      - bessemer.md
+      - te.md
   # projects:
   # skills:
 # Default layouts for each collection type
@@ -30,9 +36,11 @@ defaults:
   - scope:
       path: ''
       type: experiences
+      
     values:
       layout: experience
       subpath: '/assets/company-logos/'
+
   # - scope:
   #     path: ''
   #     type: projects
