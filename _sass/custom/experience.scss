@@ -2,11 +2,23 @@
     display: flex;
     margin: $sp-4;
   
-    .company-logo {
+    .photo {
       border-radius: 50%;
       height: 100px;
       margin-right: $sp-4;
+      float: left;
     }
+
+    .company {
+        margin: $sp-1 !important;
+      }
+      
+    
+      .experience-title {
+        @extend .label, .text-grey-dk-100, .bg-grey-lt-200;
+        text-align: center;
+        border-radius: 4px;
+      }
   
     p,
     .company {

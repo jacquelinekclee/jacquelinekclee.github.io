@@ -3,7 +3,7 @@
     <hr>
     <div>
     {% if page.photo %}
-        <img class="company-logo" src="{{site.baseurl}}{{page.photo}}" alt="wtf">
+        <img class="photo" src="{{site.baseurl}}{{page.photo}}" alt="wtf">
     {% endif %}
     <!-- <div style="float: left">
         <h2 class="company">
@@ -20,8 +20,8 @@
     
 
     <h2 class="company">
-        <a href="{{ page.link }}">{{ page.company }}</a>
-        <p class="label label-purple">  |  <b> {{ page.experience-title }}</b></p> 
+        <a href="{{ page.link }}">{{ page.company }}</a>  |  
+        <p class="label label-purple"> <b> {{ page.experience-title }}</b></p> 
     </h2>
    
 
