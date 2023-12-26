@@ -8,7 +8,7 @@ nav_order: 2
 # 💼 Work Experience
 
 {% assign experiences = site.experiences %}
-    {% for exp in experiences %}
+{% for exp in experiences %}
     {{ exp }}
 {% endfor %}
 
