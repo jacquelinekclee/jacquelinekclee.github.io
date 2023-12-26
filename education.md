@@ -2,13 +2,14 @@
 layout: page
 title: 🎓 Education 
 nav_order: 2
+has_children: true
 ---
 🎓 Education
-# B.S. in Data Science | Minor in Economics | Minor in Business
-
 <img src="{{site.baseurl}}/assets/hdsi-white.png" alt="">
 
-Graduated magna cum laude: March 2023
+# B.S. in Data Science | Minor in Economics | Minor in Business
+
+## Graduated magna cum laude: March 2023
 
 ## Relevant Data Science Courses
 

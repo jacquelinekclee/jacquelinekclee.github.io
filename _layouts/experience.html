@@ -7,6 +7,11 @@
             class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
         {% endif %}
 
+        {% if page.photo %}
+            <img style="border-radius: 50%; height: 100px; float: left;"
+            class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
+        {% endif %}
+
         <h2 class="company">
             <a href="{{ page.link }}">{{ page.company }}</a>
         </h2>
