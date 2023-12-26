@@ -4,7 +4,8 @@
     <hr>
     <div>
         {% if page.photo %}
-            <img style="border-radius: 50%; height: 100px; float: left;" 
+        <!-- style="border-radius: 50%; height: 100px; float: left;" -->
+            <img 
             class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
         {% endif %}
 
@@ -12,14 +13,23 @@
             <a href="{{ page.link }}">{{ page.company }}</a>
         </h2>
 
-        <h2 class = "experience-title">
+        <div class="experience-title"><b>{{ page.experience-title }}</b></div>
+
+        <!-- <h2 class = "experience-title">
             {{page.experience-title}}
-        </h2>
-        {% if page.location %}
-                    <p title="Location">📍 {{ page.location }}</p>
-        {% endif %}
+        </h2> -->
+
+        <p> 📆 {{ page.startdate }} - {{ page.enddate }} | 
+            {% if page.location %}
+                📍 {{ page.location }}
+             {% endif %}
+        </p>
+
+
+        <!-- {% if page.location %}
+            <p title="Location">📍 {{ page.location }}</p>
+        {% endif %} -->
         
-        <p title="dates">📆 {{ page.startdate }} - {{ page.enddate }}</p>
 
         {% if page.role %}
         <h4>My Role</h4>
