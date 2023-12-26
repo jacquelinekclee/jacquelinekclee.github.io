@@ -5,6 +5,7 @@ theme: just-the-docs
 color_scheme: custom-dark-theme
 
 url: https://jacquelinekclee.github.io/new-portfolio
+baseurl: /new-portfolio
 
 search_enabled: true
 heading_anchors: true
