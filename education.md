@@ -7,7 +7,6 @@ nav_order: 2
 # B.S. in Data Science | Minor in Economics | Minor in Business
 
 ![ucsd](/assets/hdsi-white.png)
-![test](/assets/company-logos/ballertv.jpg)
 
 Graduated magna cum laude: March 2023
 

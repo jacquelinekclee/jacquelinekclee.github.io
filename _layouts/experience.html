@@ -1,4 +1,4 @@
-<div class="staffer">
+<div class="experience">
     <hr>
     {% if page.photo %}
     <img class="company-logo" src="{{ page.photo | relative_url }}" alt="">
@@ -7,7 +7,7 @@
       <h2 class="company">
         <a href="{{ page.link }}">{{ page.company }}</a>
         
-        <div class="experience-title"><b>{{ page.title }}</b></div>
+        <div class="experience-title"><b>{{ page.experience-title }}</b></div>
         
       
       </h2>
@@ -15,22 +15,30 @@
       {% if page.location %}
       <p title="Location">📍 {{ page.location }}</p>
       {% endif %}
-      
-      <h4>My Role</h4>
 
+      <p title="dates">📆 {{ page.startdate }} - {{ page.enddate }}</p>
+    
+      {% if page.role %}
+      <h4>My Role</h4>
       <p title="My Role">👩🏻‍💻 {{ page.role }}</p>
+      {% endif %}
   
       <h4>Key Accomplishments</h4>
 
+      {% if page.accomplishment1 %}
       <p title="accomplishment1">✅ {{ page.accomplishment1 }}</p>
+      {% endif %}
 
+      {% if page.accomplishment2 %}
       <p title="accomplishment2">✅ {{ page.accomplishment2 }}</p>
+      {% endif %}
 
+      {% if page.accomplishment3 %}
       <p title="accomplishment3">✅ {{ page.accomplishment3 }}</p>
+      {% endif %}
   
-  
-      <h4>Technologies Used</h4>
       {% if page.technologies %}
+      <h4>Technologies Used</h4>
       <p title="Technologies Used">⚙️ {{ page.technologies }}</p>
       {% endif %}
   
