@@ -13,15 +13,15 @@
 //     }
 //   }
   
-//   .main {
-//     @include mq(lg) {
-//       margin-left: $nav-width;
-//     }
-//   }
+  .main {
+    @include mq(lg) {
+      margin-right: $nav-width;
+    }
+  }
 
 
 // Just the Class styles
-@import 'experience';
+// @import 'experience';
 
 // Overrides
 a abbr[title] {
