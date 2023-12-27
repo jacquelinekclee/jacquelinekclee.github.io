@@ -8,8 +8,12 @@
   }
 
   .site-nav {
-    width: 200%;
+    width: 50%;
   }  
+
+  .side-bar {
+    width: 50%;
+}
   
 //   .side-bar {
 //     @include mq(lg) {
@@ -23,9 +27,7 @@
     }
   }
 
-.side-bar {
-    width: 200%;
-}
+
 
 
 // Just the Class styles
