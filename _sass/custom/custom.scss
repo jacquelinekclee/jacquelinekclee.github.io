@@ -1,11 +1,11 @@
-// .site-nav, .site-header, .site-footer {
+// // .site-nav, .site-header, .site-footer {
+// //     width: 100%;
+// //   }
+
+
+// .site-header, .site-footer {
 //     width: 100%;
 //   }
-
-
-.site-header, .site-footer {
-    width: 100%;
-  }
   
 //   .side-bar {
 //     @include mq(lg) {
@@ -13,130 +13,130 @@
 //     }
 //   }
   
-  .main {
-    @include mq(lg) {
-      margin-right: $nav-width;
-    }
-  }
+//   .main {
+//     @include mq(lg) {
+//       margin-right: $nav-width;
+//     }
+//   }
 
 
-// Just the Class styles
-// @import 'experience';
+// // Just the Class styles
+// // @import 'experience';
 
-// Overrides
-a abbr[title] {
-  border-bottom: none;
-}
+// // Overrides
+// a abbr[title] {
+//   border-bottom: none;
+// }
 
-abbr[title] {
-  text-decoration: none;
-}
+// abbr[title] {
+//   text-decoration: none;
+// }
 
-code {
-  font-size: 14px;
-  padding: 0.2em 0.4em;
-  border: none;
-}
+// code {
+//   font-size: 14px;
+//   padding: 0.2em 0.4em;
+//   border: none;
+// }
 
-div.highlighter-rouge[overlay] {
-  position: relative;
+// div.highlighter-rouge[overlay] {
+//   position: relative;
 
-  &::after {
-    @extend .label, .text-grey-dk-100;
+//   &::after {
+//     @extend .label, .text-grey-dk-100;
 
-    background-color: $white;
-    border-radius: $border-radius;
-    bottom: $sp-2;
-    content: attr(overlay);
-    position: absolute;
-    right: 0;
-    user-select: none;
-  }
-}
+//     background-color: $white;
+//     border-radius: $border-radius;
+//     bottom: $sp-2;
+//     content: attr(overlay);
+//     position: absolute;
+//     right: 0;
+//     user-select: none;
+//   }
+// }
 
-details {
-  margin: 0 40px 1em;
-}
+// details {
+//   margin: 0 40px 1em;
+// }
 
-h1, h2, h3, h4, h5, h6 {
-  align-items: center;
-  display: flex;
-}
+// h1, h2, h3, h4, h5, h6 {
+//   align-items: center;
+//   display: flex;
+// }
 
-iframe,
-summary {
-  max-width: 100%;
-}
+// iframe,
+// summary {
+//   max-width: 100%;
+// }
 
-summary {
-  @extend .btn, .btn-outline;
-}
+// summary {
+//   @extend .btn, .btn-outline;
+// }
 
-.main-content-wrap {
-  max-width: $content-width;
-  margin: auto;
-}
+// .main-content-wrap {
+//   max-width: $content-width;
+//   margin: auto;
+// }
 
-.main-content {
-  a {
-    overflow-wrap: anywhere;
-    white-space: normal;
-  }
+// .main-content {
+//   a {
+//     overflow-wrap: anywhere;
+//     white-space: normal;
+//   }
 
-  dl {
-    display: block;
-    grid-template-columns: none;
-  }
+//   dl {
+//     display: block;
+//     grid-template-columns: none;
+//   }
 
-  dt {
-    font-weight: 700;
-    text-align: start;
+//   dt {
+//     font-weight: 700;
+//     text-align: start;
 
-    &::after {
-      content: normal;
-    }
-  }
+//     &::after {
+//       content: normal;
+//     }
+//   }
 
-  dd {
-    font-weight: normal;
+//   dd {
+//     font-weight: normal;
 
-    + dt {
-      margin-top: 1em;
-    }
-  }
+//     + dt {
+//       margin-top: 1em;
+//     }
+//   }
 
-  .katex {
-    font-size: 1.1em;
-  }
-}
+//   .katex {
+//     font-size: 1.1em;
+//   }
+// }
 
-[style*="--aspect-ratio"] > :first-child {
-  width: 100%;
-}
+// [style*="--aspect-ratio"] > :first-child {
+//   width: 100%;
+// }
 
-[style*="--aspect-ratio"] > img {
-  height: auto;
-}
+// [style*="--aspect-ratio"] > img {
+//   height: auto;
+// }
 
-@supports (--custom:property) {
-  [style*="--aspect-ratio"] {
-    position: relative;
-  }
+// @supports (--custom:property) {
+//   [style*="--aspect-ratio"] {
+//     position: relative;
+//   }
 
-  [style*="--aspect-ratio"]::before {
-    content: "";
-    display: block;
-    padding-bottom: calc(100% / (var(--aspect-ratio)));
-  }
+//   [style*="--aspect-ratio"]::before {
+//     content: "";
+//     display: block;
+//     padding-bottom: calc(100% / (var(--aspect-ratio)));
+//   }
 
-  [style*="--add-height"]::before {
-    padding-bottom: calc(100% / (var(--aspect-ratio)) + (var(--add-height)));
-  }
+//   [style*="--add-height"]::before {
+//     padding-bottom: calc(100% / (var(--aspect-ratio)) + (var(--add-height)));
+//   }
 
-  [style*="--aspect-ratio"] > :first-child {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-  }
-}
+//   [style*="--aspect-ratio"] > :first-child {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     height: 100%;
+//   }
+// }
