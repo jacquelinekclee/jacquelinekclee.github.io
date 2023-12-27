@@ -6,6 +6,10 @@
 .site-header, .site-footer {
     width: 100%;
   }
+
+  .site-nav {
+    width: 50%;
+  }  
   
 //   .side-bar {
 //     @include mq(lg) {
@@ -19,6 +23,10 @@
     }
   }
 
+// idk if this works
+.site-title {
+    align-items: right;
+}
 
 // Just the Class styles
 // @import 'experience';
