@@ -12,4 +12,5 @@ nav_order: 1
 {% assign experiences = site.experiences %}
 {% for exp in experiences %}
     {{ exp }}
+    <br>
 {% endfor %}
