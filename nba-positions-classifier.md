@@ -6,7 +6,7 @@ nav_order: 2
 ---
 
 <p style = "float: left"> 
-    <h1 style = "float: left">🏀 Random Forest and XGBoost - Predicting NBA Player Position</h4>
+    <h1 style = "float: left">🏀 Random Forest and XGBoost - Predicting NBA Player Position</h1>
 </p>
 
 <img style = "float: right" src="{{site.baseurl}}/assets/project-pics/positionless-nba-2.png" style="width: 50%; height: auto;" alt="">

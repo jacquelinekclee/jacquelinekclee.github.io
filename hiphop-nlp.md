@@ -6,7 +6,7 @@ nav_order: 4
 ---
 
 <p style = "float: left"> 
-    <h1 style = "float: left">🎵 Natural Language Processing and Web-Scraping - Has Hip Hop Gotten Worse?</h4>
+    <h1 style = "float: left">🎵 Natural Language Processing and Web-Scraping - Has Hip Hop Gotten Worse?</h1>
 </p>
 
 <img style = "float: right" src="{{site.baseurl}}/assets/project-pics/rappers-2.JPG" style="width: 50%; height: auto;" alt="">
