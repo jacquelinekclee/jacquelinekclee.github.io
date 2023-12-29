@@ -5,13 +5,21 @@ description: Description of random forest and XGBoost project
 nav_order: 2
 ---
 
-<div>
+<!-- <div>
 <p style = "float: left"> 
     <h1 style = "float: left">🏀 Random Forest and XGBoost - Predicting NBA Player Position</h1>
 </p>
 </div>
 
-<img src="{{site.baseurl}}/assets/project-pics/positionless-nba-2.png" style="width: 50%; height: auto; float: left" alt="">
+<img src="{{site.baseurl}}/assets/project-pics/positionless-nba-2.png" style="width: 50%; height: auto; float: left" alt=""> -->
+
+<p style = "float: left"> 
+    <h1 style = "float: left">🏀 Random Forest and XGBoost - Predicting NBA Player Position</h1>
+</p>
+
+<img src="{{site.baseurl}}/assets/project-pics/positionless-nba-2.png" style="width: 50%; height: auto;" alt="">
+
+<br>
 
 <div style="clear:both"> </div>
 

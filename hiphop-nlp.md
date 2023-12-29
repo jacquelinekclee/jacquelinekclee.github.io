@@ -5,13 +5,21 @@ description: Description of NLP and web scraping project
 nav_order: 4
 ---
 
-<div>
+<!-- <div>
 <p> 
     <h1 style = "float: left">🎵 Natural Language Processing and Web-Scraping - Has Hip Hop Gotten Worse?</h1>
 </p>
 
 <img src="{{site.baseurl}}/assets/project-pics/rappers-2.JPG" style="width: 50%; height: auto; float: left;" alt="">
-</div>
+</div> -->
+
+<p style = "float: left"> 
+    <h1 style = "float: left">🎵 Natural Language Processing and Web-Scraping - Has Hip Hop Gotten Worse?</h1>
+</p>
+
+<img src="{{site.baseurl}}/assets/project-pics/rappers-2.JPG" style="width: 50%; height: auto;" alt="">
+
+<br>
 
 <div style="clear:both"> </div>
 
