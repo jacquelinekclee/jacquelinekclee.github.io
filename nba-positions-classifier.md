@@ -13,6 +13,8 @@ nav_order: 2
 
 <img src="{{site.baseurl}}/assets/project-pics/positionless-nba-2.png" style="width: 50%; height: auto; float: left" alt="">
 
+<div style="clear:both">
+
 [SOURCE](https://www.cbssports.com/nba/news/power-guard-point-center-the-nbas-positional-misfits-are-dismantling-an-antiquated-system/)
 
 # Summary
