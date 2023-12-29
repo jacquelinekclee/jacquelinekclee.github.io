@@ -7,14 +7,14 @@ nav_order: 4
 
 <!-- <div>
 <p> 
-    <h1 style = "float: left">🎵 Natural Language Processing and Web-Scraping - Has Hip Hop Gotten Worse?</h1>
+    <h1 style = "float: left">🎵 Natural Language Processing<br>and Web-Scraping - <br>Has Hip Hop Gotten Worse?</h1>
 </p>
 
 <img src="{{site.baseurl}}/assets/project-pics/rappers-2.JPG" style="width: 50%; height: auto; float: left;" alt="">
 </div> -->
 
 <p style = "float: left"> 
-    <h1 style = "float: left">🎵 Natural Language Processing and Web-Scraping - Has Hip Hop Gotten Worse?</h1>
+    <h1 style = "float: left">🎵 Natural Language Processing <br>and Web-Scraping - <br>Has Hip Hop Gotten Worse?</h1>
 </p>
 
 <img src="{{site.baseurl}}/assets/project-pics/rappers-2.JPG" style="width: 50%; height: auto;" alt="">
