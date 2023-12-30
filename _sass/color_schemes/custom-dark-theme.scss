@@ -1,6 +1,11 @@
 @import "./color_schemes/dark";
 
 $link-color: #b188fc;
-$nav-width: 216px;
+// $nav-width: 216px;
 $content-width: 1024px;
+
+// test bc i just wanna see what it looks like
+$nav-width: 50rem !default;
+$nav-width-md: 100rem !default;
+
 $label-purple: #b188fc;
