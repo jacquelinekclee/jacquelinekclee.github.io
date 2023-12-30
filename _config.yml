@@ -40,7 +40,9 @@ collections:
       - ballertv.md
       - bessemer.md
       - te.md
-  # projects:
+  projects:
+    permalink: /:collection/:path/
+      output: true
   # skills:
 # Default layouts for each collection type
 
@@ -57,13 +59,14 @@ defaults:
     values:
       layout: experience
       subpath: '/assets/company-logos/'
+      
+  - scope:
+      path: ''
+      type: projects
+    values:
+      layout: project
+      subpath: '/assets/project-images/'
 
-  # - scope:
-  #     path: ''
-  #     type: projects
-  #   values:
-  #     layout: project
-  #     subpath: '/assets/project-images/'
   # - scope:
   #     path: ''
   #     type: skills
