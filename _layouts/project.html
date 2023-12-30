@@ -1,3 +1,21 @@
+<html>
+ <head>
+    <style>
+   
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
+ </head>
+
 
 <div class="project">
     <hr>
@@ -19,12 +37,11 @@
 
         {% if page.description %}
             <h3>Project Summary</h3>
-            <p title="Project Summary">👩🏻‍💻 {{ page.description }}</p>
+            <p title="Project Summary">{{ page.description }}</p>
         {% endif %}
 
-        {% if page.skills %}
+        <!-- {% if page.skills %}
             <h3>Skills</h3>
-            <!-- <p title="Skills">🧠 {{ page.skills }}</p> -->
             {% assign skill = page.skills %}
             {% for sk in skill %}
                 <p>🧠{{ sk }}</p>
@@ -34,7 +51,24 @@
         {% if page.technologies %}
             <h3>Technologies Used</h3>
             <p title="Technologies Used">⚙️ {{ page.technologies }}</p>
-        {% endif %}
+        {% endif %} -->
+
+        <div class="row">
+            <div class="column" style="float: left; width: 50%;">
+                <h3>Skills</h3>
+                {% assign skill = page.skills %}
+                {% for sk in skill %}
+                    <p>🧠{{ sk }}</p>
+                {% endfor %}
+            </div>
+            <div class="column" style="float: left; width: 50%;">
+                <h3>Technologies Used</h3>
+                {% assign tech = page.technologies %}
+                {% for t in tech %}
+                    <p>⚙️{{ t }}</p>
+                {% endfor %}
+            </div>
+        </div>
 
         <h3>Key Findings</h3>
 
@@ -52,3 +86,5 @@
       
     </div>
 </div>
+
+</html>

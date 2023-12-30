@@ -13,6 +13,11 @@ skills:
     - Model Evaluation
     - Fairness Auditing
     - Data Cleaning
-technologies: Python, scikit-learn, Pandas, Matplotlib, Jupyter Notebooks
+technologies: 
+    - Python
+    - scikit-learn
+    - Pandas
+    - Matplotlib
+    - Jupyter Notebooks
 ---
 
