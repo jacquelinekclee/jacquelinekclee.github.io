@@ -42,7 +42,9 @@ collections:
       - te.md
   projects:
     permalink: /:collection/:path/
-      output: true
+    output: true
+    order:
+      - fairness-nypd.md
   # skills:
 # Default layouts for each collection type
 
