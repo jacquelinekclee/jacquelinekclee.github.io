@@ -45,14 +45,14 @@
                 <h3>Skills</h3>
                 {% assign skill = page.skills %}
                 {% for sk in skill %}
-                    <p>🧠{{ sk }}</p>
+                    <p>🧠 {{ sk }}</p>
                 {% endfor %}
             </div>
             <div class="column" style="float: left; width: 50%;">
                 <h3>Technologies Used</h3>
                 {% assign tech = page.technologies %}
                 {% for t in tech %}
-                    <p>⚙️{{ t }}</p>
+                    <p>⚙️ {{ t }}</p>
                 {% endfor %}
             </div>
         </div>
@@ -61,7 +61,7 @@
 
         {% assign findings = page.findings %}
         {% for finding in findings %}
-            <p>💡{{ t }}</p>
+            <p>💡 {{ finding }}</p>
         {% endfor %}
       
     </div>
