@@ -24,7 +24,11 @@
 
         {% if page.skills %}
             <h3>Skills</h3>
-            <p title="Skills">🧠 {{ page.skills }}</p>
+            <!-- <p title="Skills">🧠 {{ page.skills }}</p> -->
+            {% assign skill = page.skills %}
+            {% for sk in skill %}
+                <p>🧠{{ sk }}</p>
+            {% endfor %}
         {% endif %}
 
         {% if page.technologies %}
