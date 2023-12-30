@@ -69,7 +69,7 @@ defaults:
       type: projects
     values:
       layout: project
-      subpath: '/assets/project-images/'
+      subpath: '/assets/project-files/'
 
   # - scope:
   #     path: ''

@@ -11,6 +11,6 @@ This was my capstone project completed as part of getting my [B.S. in Data Scien
 
 View [this website](https://notsamzhou.github.io/twas/) for summary of the data, methods, and results of the project, the [report](https://notsamzhou.github.io/twas/files/report.pdf) for full details on our work and findings, and this [repository](https://github.com/jacquelinekclee/twas-dsc180-a17) for all the code, including how to reproduce the project.
 
-See below or [this link to the PDF]({{site.baseurl}}/capstone-poster.pdf) for the project poster, which provides a nice overview and visualizations of the work we did and our findings. 
+See below or [this link to the PDF]({{site.baseurl}}/project-files/capstone-poster.pdf) for the project poster, which provides a nice overview and visualizations of the work we did and our findings. 
 
-<img src="{{site.baseurl}}/capstone-poster.jpg" alt="">
+<img src="{{site.baseurl}}/project-files/capstone-poster.jpg" alt="">
