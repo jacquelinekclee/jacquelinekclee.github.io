@@ -2,7 +2,7 @@
 layout: page
 title: 🏀 Random Forest and XGBoost - Predicting NBA Player Position
 description: Description of random forest and XGBoost project
-nav_order: 2
+nav_order: 3
 ---
 
 <!-- <div>
@@ -32,11 +32,10 @@ This attempts to use player statistics to classify players as either a guard, fo
 
 # 👩🏻‍💻 Skills Used
 - Data cleaning
-- Machine Learning:
-    - Hyperparameter tuning
-    - Cross validation
-    - Random Forest classification
-    - XGBoost classification
+- Hyperparameter tuning
+- Cross validation
+- Random Forest classification
+- XGBoost classification
 
 # ⚙️ Technologies Used
 - `Pandas` for data analysis and manipulation

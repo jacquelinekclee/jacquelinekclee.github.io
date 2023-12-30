@@ -1,0 +1,50 @@
+
+<div class="project">
+    <hr>
+    <div>
+        {% if page.photo %}
+            <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
+            class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
+        {% endif %}
+
+        <h2 class="project">
+            {{ page.project-title }}
+        </h2>
+
+        <h4 class="project">
+            <a href="{{ page.repo }}">GitHub Repository/a>
+        </h4>
+
+        <div style="clear: both;"></div>
+
+        {% if page.description %}
+        <h3>Project Summary</h3>
+        <p title="Project Summary">👩🏻‍💻 {{ page.description }}</p>
+        {% endif %}
+
+        {% if page.skills %}
+            <h3>Skills</h3>
+            <p title="Skills">🧠 {{ page.skills }}</p>
+        {% endif %}
+
+        {% if page.technologies %}
+            <h3>Technologies Used</h3>
+            <p title="Technologies Used">⚙️ {{ page.technologies }}</p>
+        {% endif %}
+
+        <h3>Key Findings</h3>
+
+        {% if page.finding1 %}
+        <p title="finding1">💡 {{ page.finding1 }}</p>
+        {% endif %}
+
+        {% if page.finding2 %}
+        <p title="finding2">💡 {{ page.finding2 }}</p>
+        {% endif %}
+
+        {% if page.finding3 %}
+        <p title="finding3">💡 {{ page.finding3 }}</p>
+        {% endif %}
+      
+    </div>
+</div>
