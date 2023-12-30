@@ -50,6 +50,8 @@ just-the-docs:
   collections:
     experiences:
       nav_fold: true
+    projects:
+      nav_fold: true
     
 defaults:
   - scope:
@@ -59,7 +61,7 @@ defaults:
     values:
       layout: experience
       subpath: '/assets/company-logos/'
-      
+
   - scope:
       path: ''
       type: projects
