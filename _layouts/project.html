@@ -16,7 +16,6 @@
     </style>
  </head>
 
-
 <div class="project">
     <hr>
     <div>
@@ -29,9 +28,11 @@
             {{ page.project-title }}
         </h2>
 
+        {% if page.repo %}
         <h4 class="project">
             <a href="{{ page.repo }}">GitHub Repository</a>
         </h4>
+        {% endif %}
 
         <div style="clear: both;"></div>
 
