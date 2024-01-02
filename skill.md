@@ -13,6 +13,8 @@ nav_order: 4
     {{ skill }}
 {% endfor %}
 
+<hr>
+
 ## Miscellaneous
 
 * Jupyter Notebooks
