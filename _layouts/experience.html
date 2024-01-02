@@ -3,8 +3,6 @@
     <hr>
     <div>
 
-        <a href = "#hdsi">test</a>
-
         {% if page.photo %}
             <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
             class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
@@ -16,13 +14,13 @@
 
         <div class="label label-purple" style="background-color: #b188fc;"><b>{{ page.experience-title }}</b></div>
 
-        <a id = "{{page.section}}">
+        
         <p> 📆 {{ page.startdate }} - {{ page.enddate }}
             {% if page.location %}
                 &emsp;📍 {{ page.location }}
              {% endif %}
         </p>
-        </a>
+        
 
         <div style="clear: both;"></div>
 
@@ -35,8 +33,7 @@
             <h3>Technologies Used</h3>
             <p title="Technologies Used">⚙️ {{ page.technologies }}</p>
         {% endif %}
-
-        <h3>Key Accomplishments</h3>
+        <a id = "{{page.section}}"><h3>Key Accomplishments</h3></a>
 
         {% if page.accomplishment1 %}
         <p title="accomplishment1">✅ {{ page.accomplishment1 }}</p>
