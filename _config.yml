@@ -48,7 +48,8 @@ collections:
   skills:
     permalink: /:collection/:path/
     output: true
-    
+    order:
+      - python.md
 # Default layouts for each collection type
 
 just-the-docs:
