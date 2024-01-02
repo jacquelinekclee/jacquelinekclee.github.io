@@ -5,5 +5,5 @@ details:
     - Programming
     - Ruby on Rails Framework
 examples:
-    - <a href="https://jacquelinekclee.github.io/experience/">BallerTV</a>
+    - <a href="https://jacquelinekclee.github.io/experience/#ballertv">BallerTV</a>
 ---

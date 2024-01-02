@@ -4,8 +4,10 @@
     <div>
 
         {% if page.photo %}
+        <a id = "{{page.section}}">
             <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
             class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
+        </a>
         {% endif %}
 
         <h2 class="company">
@@ -33,7 +35,7 @@
             <h3>Technologies Used</h3>
             <p title="Technologies Used">⚙️ {{ page.technologies }}</p>
         {% endif %}
-        <a id = "{{page.section}}"><h3>Key Accomplishments</h3></a>
+        <h3>Key Accomplishments</h3>
 
         {% if page.accomplishment1 %}
         <p title="accomplishment1">✅ {{ page.accomplishment1 }}</p>

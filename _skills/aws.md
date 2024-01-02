@@ -6,6 +6,6 @@ details:
     - Redshift
     - S3
 examples:
-    - <a href="https://jacquelinekclee.github.io/experience/">TE Connectivity</a>
+    - <a href="https://jacquelinekclee.github.io/experience/#te">TE Connectivity</a>
     - <a href="https://jacquelinekclee.github.io/education/">UC San Diego</a>
 ---

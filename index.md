@@ -12,6 +12,6 @@ During my undergraduate career, I [interned](experience) at large manufacturer T
 
 Since starting my Data Science journey back in 2019, I've loved using data and data science to explore my personal interests, like [rap music](hiphop) and topics that could have an impact on the world, like [preventative health care](twas). 
 
-Outside of work, I enjoy cooking and baking, traveling, basketball, and concert-going. Click the links in the menu to learn more about my background and experience. You can also find my [resume](https://jacquelinekclee.github.io/jacqueline_lee_resume_122023.pdf) below and [contact info](https://www.linkedin.com/in/jacqueline-kc-lee/) at the top or by clicking the corresponding icons.
+Outside of work, I enjoy cooking and baking, traveling, basketball, and concert-going. Click the links in the menu to learn more about my background and experience. You can also find my [resume](https://jacquelinekclee.github.io/jacqueline_lee_resume_2024.pdf) below and [contact info](https://www.linkedin.com/in/jacqueline-kc-lee/) at the top or by clicking the corresponding icons.
 
-<a href="https://jacquelinekclee.github.io/jacqueline_lee_resume_122023.pdf"><img style="height: auto;" src="{{site.baseurl}}/jacqueline_lee_resume_122023.jpg" alt=""></a>
+<a href="https://jacquelinekclee.github.io/jacqueline_lee_resume_2024.pdf"><img style="height: auto;" src="{{site.baseurl}}/jacqueline_lee_resume_2024.jpg" alt=""></a>
