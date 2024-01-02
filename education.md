@@ -51,7 +51,7 @@ nav_order: 3
 
 <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
             class = "photo" src="{{site.baseurl}}/assets/ucsd.png" alt="">
-<a href="https://vcsa.ucsd.edu/_files/sfac_files/committee-reports/SFAC-final-report-2021-2022.pdf"><h2>Chair - Student Fee Advisory Committee</h2></a>
+<h2><a href="https://vcsa.ucsd.edu/_files/sfac_files/committee-reports/SFAC-final-report-2021-2022.pdf">Chair - Student Fee Advisory Committee</a></h2>
 <div style="clear: both"></div>
 
 * Led committee of 20 student representatives and 5 staff members to provide the Vice Chancellor of Student Affairs with students’ perspective on how $40M in student fees should be allocated during the 2021-22 academic year.
@@ -59,9 +59,11 @@ nav_order: 3
 * Directly contributed to $2M in new funding for undocumented students and first-generation students.
 * Pioneered an equity scorecard to better tailor committee’s rankings to university values of diversity, equity, and inclusion and encourage the university’s fee-funded units to incorporate DEI into their programs.
 
+<hr>
+
 <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
             class = "photo" src="{{site.baseurl}}/assets/tcg.webp" alt="">
-<a href="https://www.ucsdtcg.org/"><h2>Project Manager - Triton Consulting Group</h2></a>
+<h2><a href="https://www.ucsdtcg.org/">Project Manager - Triton Consulting Group</a></h2>
 <div style="clear: both"></div>
 
 * Supervised team of 5 associates that developed customer acquisition strategies and marketing and advertising tactics for bakery looking to improve its B2B and B2C business mid- and post-pandemic.
