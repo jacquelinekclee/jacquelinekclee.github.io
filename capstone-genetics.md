@@ -13,4 +13,4 @@ View [this website](https://notsamzhou.github.io/twas/) for summary of the data,
 
 See below or [this link to the PDF]({{site.baseurl}}/project-files/capstone-poster.pdf) for the project poster, which provides a nice overview and visualizations of the work we did and our findings. 
 
-<img src="{{site.baseurl}}/project-files/capstone-poster.jpg" alt="">
+<img src="{{site.baseurl}}/assets//project-files/capstone-poster.jpg" alt="">
