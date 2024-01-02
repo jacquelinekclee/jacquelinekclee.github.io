@@ -7,5 +7,5 @@ details:
     - Redash
 examples:
     - <a href="{{site.baseurl}}{{experience}}">BallerTV</a>
-    - <a href="{{site.baseurl}}{{education}}">UC San Diego</a>
+    - <a href=education>UC San Diego</a>
 ---
