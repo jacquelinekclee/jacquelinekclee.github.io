@@ -2,26 +2,27 @@
 <div class="experience">
     <hr>
     <div>
+
+        <a href = "#hdsi">test</a>
+
         {% if page.photo %}
             <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
             class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
         {% endif %}
 
-        <a id = "{{page.section}}">
-
         <h2 class="company">
             <a href="{{ page.link }}">{{ page.company }}</a>
         </h2>
 
-        </a>
-
         <div class="label label-purple" style="background-color: #b188fc;"><b>{{ page.experience-title }}</b></div>
 
+        <a id = "{{page.section}}">
         <p> 📆 {{ page.startdate }} - {{ page.enddate }}
             {% if page.location %}
                 &emsp;📍 {{ page.location }}
              {% endif %}
         </p>
+        </a>
 
         <div style="clear: both;"></div>
 
