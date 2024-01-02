@@ -1,5 +1,6 @@
 ---
 company: BallerTV
+section: ballertv
 experience-title: Software Engineer Intern
 link: https://www.ballertv.com/about-us
 photo: /assets/company-logos/ballertv.jpg

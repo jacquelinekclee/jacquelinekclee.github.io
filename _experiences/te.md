@@ -1,5 +1,6 @@
 ---
 company: TE Connectivity
+section: te
 experience-title: Data Science Intern
 link: https://www.te.com/usa-en/about-te/our-company.html
 photo: /assets/company-logos/te.png

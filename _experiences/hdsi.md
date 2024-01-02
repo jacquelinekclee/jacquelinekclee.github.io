@@ -1,5 +1,6 @@
 ---
 company: Halıcıoğlu Data Science Institute
+section: hdsi
 experience-title: Data Science Tutor
 link: https://datascience.ucsd.edu/current-students/dsc-tutors/
 photo: /assets/company-logos/hdsi.png

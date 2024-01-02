@@ -1,5 +1,6 @@
 ---
 company: Bessemer Venture Partners
+section: bessemer
 experience-title: Fellow
 link: https://www.bvp.com/bessemer-fellows
 photo: /assets/company-logos/bess.png

@@ -1,5 +1,6 @@
 ---
 company: IBM
+section: ibm
 experience-title: Business Automation Technology Sales Engineer
 link: https://www.ibm.com/automation
 photo: /assets/company-logos/ibm.svg
