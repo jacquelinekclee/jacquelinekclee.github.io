@@ -45,7 +45,10 @@ collections:
     output: true
     order:
       - fairness-nypd.md
-  # skills:
+  skills:
+    permalink: /:collection/:path/
+    output: true
+    
 # Default layouts for each collection type
 
 just-the-docs:
@@ -53,6 +56,8 @@ just-the-docs:
     experiences:
       nav_fold: true
     projects:
+      nav_fold: true
+    skills:
       nav_fold: true
     
 defaults:
@@ -71,10 +76,10 @@ defaults:
       layout: project
       subpath: '/assets/project-files/'
 
-  # - scope:
-  #     path: ''
-  #     type: skills
-  #   values:
-  #     layout: skill
-  #     subpath: '/assets/skill-logos/'
+  - scope:
+      path: ''
+      type: skills
+    values:
+      layout: skill
+      subpath: '/assets/skills/'
  

@@ -1,0 +1,54 @@
+
+ <head>
+    <style>
+   
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
+ </head>
+
+<div class="skill">
+    <hr>
+    <div>
+        {% if page.photo %}
+            <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
+            class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
+        {% endif %}
+
+        <h2 class="skill">
+            {{ page.skill-name }}
+        </h2>
+
+        {% if page.skills %}
+
+        <div class="row">
+            <div class="column" style="float: left; width: 50%;">
+                <h3>Packages, Frameworks, etc.</h3>
+                {% assign details = page.details %}
+                {% for detail in details %}
+                    <p>⚙️ {{ sk }}</p>
+                {% endfor %}
+            </div>
+            <div class="column" style="float: left; width: 50%;">
+                <h3>Where I've Used It</h3>
+                {% assign examples = page.examples %}
+                {% for ex in examples %}
+                    <p>⚙️ {{ t }}</p>
+                {% endfor %}
+            </div>
+        </div>
+
+        {% endif %}
+
+    </div>
+</div>
+

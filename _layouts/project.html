@@ -41,6 +41,8 @@
             <p title="Project Summary">{{ page.description }}</p>
         {% endif %}
 
+        {% if page.skills %}
+
         <div class="row">
             <div class="column" style="float: left; width: 50%;">
                 <h3>Skills</h3>
@@ -58,13 +60,17 @@
             </div>
         </div>
 
-        <h3>Key Findings</h3>
+        {% endif %}
 
-        {% assign findings = page.findings %}
-        {% for finding in findings %}
-            <p>💡 {{ finding }}</p>
-        {% endfor %}
-      
+        {% if page.findings %}
+
+            <h3>Key Findings</h3>
+
+            {% assign findings = page.findings %}
+            {% for finding in findings %}
+                <p>💡 {{ finding }}</p>
+            {% endfor %}
+        {% endif %}
     </div>
 </div>
 
