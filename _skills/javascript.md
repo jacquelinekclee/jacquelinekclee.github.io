@@ -5,5 +5,5 @@ details:
     - Programming
     - D3.js
 examples:
-    - <a href="https://jacquelinekclee.github.io/new-portfolio/project/">NBA Data Viz Project</a>
+    - <a href="https://jacquelinekclee.github.io/project/">NBA Data Viz Project</a>
 ---

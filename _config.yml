@@ -4,15 +4,15 @@ author: Jacqueline Lee
 theme: just-the-docs
 color_scheme: custom-dark-theme
 
-url: https://jacquelinekclee.github.io/new-portfolio
-baseurl: /new-portfolio
+url: https://jacquelinekclee.github.io
+baseurl: /
 
 search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
   Resume:
-  - 'https://jacquelinekclee.github.io/new-portfolio/jacqueline_lee_resume_122023.pdf'
+  - 'https://jacquelinekclee.github.io/jacqueline_lee_resume_122023.pdf'
   LinkedIn:
     - 'https://www.linkedin.com/in/jacqueline-kc-lee/'
   Email Me:
