@@ -50,6 +50,10 @@ collections:
     output: true
     order:
       - python.md
+      - sql.md
+      - aws.md
+      - javascript.md
+      - ruby.md
 # Default layouts for each collection type
 
 just-the-docs:

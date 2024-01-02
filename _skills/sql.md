@@ -6,6 +6,6 @@ details:
     - SQLite
     - Redash
 examples:
-    - <a href="{{site.baseurl}}{{experience}}">BallerTV</a>
-    - <a href=education>UC San Diego</a>
+    - <a href="https://jacquelinekclee.github.io/new-portfolio/experience/">BallerTV</a>
+    - <a href="https://jacquelinekclee.github.io/new-portfolio/education/">UC San Diego</a>
 ---

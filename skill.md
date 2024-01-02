@@ -13,3 +13,9 @@ nav_order: 4
     {{ skill }}
 {% endfor %}
 
+## Miscellaneous
+
+* Jupyter Notebooks
+* Git
+* Bash
+* Docker
