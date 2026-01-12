@@ -2,7 +2,7 @@
 layout: page
 title: 💻 Projects
 description: A listing of all relevant projects
-nav_order: 2
+nav_order: 3
 ---
 
 <p style = "float: right"> 

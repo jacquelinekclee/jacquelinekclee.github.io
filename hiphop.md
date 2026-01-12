@@ -2,7 +2,7 @@
 layout: page
 title: 🎵 Natural Language Processing and Web Scraping - Has Hip Hop Gotten Worse?
 description: Description of NLP and web scraping project
-nav_order: 9
+nav_exclude: true
 ---
 
 <p style = "float: left"> 

@@ -1,7 +1,7 @@
 ---
-project-title: 🎵 Natural Language Processing and Web Scraping - Has Hip Hop Gotten Worse?
-repo: https://github.com/jacquelinekclee/hiphop_nlp_webscrape/
-photo: /assets/project-files/sql-interview.jpg
+project-title: 👩🏻‍💻🤖 SQL Interview Helper App
+repo: https://github.com/jacquelinekclee/sql-interview-helper/tree/main
+photo: /assets/project-files/sql-interview.jpeg
 description: The SQL Interview Helper uses and LLM to give users personalized feedback on SQL practice questions. After learning about deep learning and large language models and experimenting with GPT 3.5 as a student in Fall 2022, I re-vamped my final project in December 2025 to use the recent version of the OpenAI SDK, GPT-5 nano, and a Streamlit user interface. 
 
 findings:

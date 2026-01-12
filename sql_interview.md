@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 👩🏻‍💻🤖 SQL Interview Helper App
+title: 👩🏻‍💻🤖 Gen AI Streamlit App - SQL Interview Helper
 description: Description of SQL interview helper app with OpenAI API/GPT
-nav_order: 6
+nav_order: 4
 ---
 
 <p style = "float: left"> 

@@ -1,7 +1,7 @@
 ---
 title: 👋🏻 About Me | Home Page
 layout: home
-nav_order: 5
+nav_order: 1
 ---
 
 # 👋🏻 Welcome to my Portfolio!
