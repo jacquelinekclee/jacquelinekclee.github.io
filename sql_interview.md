@@ -13,11 +13,13 @@ nav_order: 6
 
 <br>
 
+<div style="clear:both"> </div>
+
 # Summary 
 
 Back in Fall 2022 at UC San Diego, my classmates and I built a Data Science Interview helper leveraging GPT 3.5 for the final project of the course Deep Learning for Natural Language Understanding. This was right around the time ChatGPT first released, and we couldn't have predicted what was to come. You can see the final paper we submitted [here](https://github.com/jacquelinekclee/sql-interview-helper/blob/main/lign_167_final_paper.pdf) for all the details.
 
-My portion was the SQL practice portion. I've taken that code and revamped it to use GPT-5 nano, and I also built a simple user interface leveraging Streamlit for users to more easily interact with the tool (an improvement from the Jupyter notebook I had submitted in 2022). Please see below for instructions on how to use my SQL Interview Helper. I've also uploaded a version that removes any OpenAI API usage that's available to check out live on Streamlit linked [here](share_link) and below. I hope this tool helps you hone your SQL skills and prepare for any interviews!
+My portion was the SQL practice portion. I've taken that code and revamped it to use GPT-5 nano, and I also built a simple user interface leveraging Streamlit for users to more easily interact with the tool (an improvement from the Jupyter notebook I had submitted in 2022). Please see below for instructions on how to use my SQL Interview Helper. I've also uploaded a version that removes any OpenAI API usage that's available to check out live on Streamlit linked [here](share_link) and [below](links). I hope this tool helps you hone your SQL skills and prepare for any interviews!
 
 # 👩🏻‍💻 Skills Used
 - Data wrangling (web scraping)
@@ -34,11 +36,12 @@ My portion was the SQL practice portion. I've taken that code and revamped it to
 # Links
 - [Repository (with all code and other files)](https://github.com/jacquelinekclee/sql-interview-helper/tree/main)
 
+[![Try it in Streamlit][share_badge]][share_link] 
+
 # Table of contents
 
 - [Set Up](#set-up)
 - [Run the SQL Interview Helper](#run-the-sql-interview-helper)
-- [Example Usage](#example-usage)
 - [Sources](#sources)
 
 ## Set Up
@@ -81,14 +84,8 @@ Once set up, use the command below to run the SQL Interview Helper:
 env/bin/python -m streamlit run app.py
 ```
 
-## Example Usage 
-[![Try it in Streamlit][share_badge]][share_link] 
-
-![example-usage-no-openai](./sql-interview-helper-demo-no-openai.gif)
-
 ## Sources
 SQL exercises are sourced from [w3resource](https://www.w3resource.com/index.php). 
-
 
 [(Back to top)](#table-of-contents)
 
