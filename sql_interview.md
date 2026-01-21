@@ -6,8 +6,10 @@ nav_order: 4
 ---
 
 <p style = "float: left"> 
-    <h1 style = "float: left">👩🏻‍💻🤖 SQL Interview<br>Helper App</h1>
+    <h1 style = "float: left">👩🏻‍💻🤖 SQL Interview Helper App</h1>
 </p>
+
+<br>
 
 <img src="{{site.baseurl}}/assets/project-files/sql-interview-helper-demo-with-openai.gif" style="width: 50%; height: auto;" alt="">
 

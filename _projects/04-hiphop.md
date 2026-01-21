@@ -1,7 +1,7 @@
 ---
 project-title: 🎵 Natural Language Processing and Web Scraping - Has Hip Hop Gotten Worse?
 repo: https://github.com/jacquelinekclee/hiphop_nlp_webscrape/
-photo: /assets/project-files/rappers-square.jpg
+photo: /assets/project-files/rappers-square.JPG
 description: This project was one of my first personal projects done during Summer 2020. It gave me a way to practice my burgeoning Data Science and coding skills while diving into a personal interest of mine - hip-hop and rap music. I sought to find an objective way of determining whether the quality of hip-hop music has gone down overtime.  
 
 findings:
