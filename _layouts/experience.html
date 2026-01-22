@@ -32,8 +32,30 @@
         {% endif %}
 
         {% if page.technologies %}
-            <h3>Technologies Used</h3>
-            <p title="Technologies Used">⚙️ {{ page.technologies }}</p>
+            <h3>Technologies Used</h3>            
+            <div class="row">
+                <div class="column" style="float: left; width: 50%;">
+                    <h3>Technologies Used</h3>           
+                    {% assign technologies = page.technologies %}
+                    {% assign half = technologies.size | divided_by: 2 %}
+
+                    <!-- First half -->
+                    {% for i in (0..half) %}
+                        {% if technologies[i] %}
+                            <p>⚙️ {{ technologies[i] }}</p>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="column" style="float: left; width: 50%;">
+                    <!-- Second half -->
+                    <h3> </h3>           
+                    {% assign start = half | plus: 1 %}
+                    {% assign end = technologies.size | minus: 1 %}
+                    {% for i in (start..end) %}
+                        <p>⚙️ {{ technologies[i] }}</p>
+                    {% endfor %}
+                </div>
+            </div>
         {% endif %}
         <h3>Key Accomplishments</h3>
 

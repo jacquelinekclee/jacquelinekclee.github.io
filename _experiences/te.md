@@ -12,5 +12,9 @@ accomplishment1: Analyzed deep learning forecast model results with Python Panda
 accomplishment2: Developed Python automated fuzzy matching algorithm that improved accuracy by 50%, was adopted on 2 projects used by 5 departments, and maps predictions to actual sales for marketing campaign tracking.
 accomplishment3: Implemented statistical randomization methodology with Python, SciPy for A/B testing, reducing manual labor and enabling marketers to accurately evaluate their campaigns.
 accomplishment4: Created data pipelines to map Al predictions to actual sales data for campaign performance tracking.
-technologies: Python (Pandas, SciPy, Matplotlib), SQL, AWS (SageMaker, S3), Jupyter Notebooks
+technologies: 
+    - Python (Pandas, SciPy, Matplotlib)
+    - SQL
+    - AWS (SageMaker, S3)
+    - Jupyter Notebooks
 ---

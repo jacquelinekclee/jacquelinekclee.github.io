@@ -11,6 +11,10 @@ role: 1st software engineering and 1st startup experience. Allowed me to learn a
 accomplishment1: Built scalable data pipeline in Ruby to clean, extract, and calculate statistics for 1 million games with Generative Al API integration to create custom headlines for subscribers, driving product engagement. This project was the pre-cursor to a GPT application.
 accomplishment2: Designed dashboards with SQL and Redash to visualize travel cost metrics and asset tracking data, empowering product managers and leaders to make data-driven cost-saving decisions.
 accomplishment3: Automated timely communication by programming a workflow that sends text messages to contractors via the Twilio API and Active Record (Rails) when work schedules change.
-technologies: Ruby (Rails), PostgreSQL, Git, GitHub, Jira
+technologies: 
+    - Ruby (Rails)
+    - PostgreSQL
+    - Git
+    - GitHub
+    - Jira
 ---
-
