@@ -10,11 +10,15 @@ nav_order: 8
 
 <img src="{{site.baseurl}}/assets/hdsi-white.png" style="width: 50%; height: auto;" alt="">
 
-<br>
+# B.S. in Data Science
+## Minor in Economics | Minor in Business
 
-# B.S. in Data Science | Minor in Economics | Minor in Business
+### Graduated magna cum laude
 
-## Graduated magna cum laude: March 2023
+- [Relevant Data Science Courses](#relevant-data-science-courses)
+- [Relevant AI and Machine Learning Courses](#relevant-ai-and-machine-learning-courses)
+- [Relevant Statistics Courses](#relevant-statistics-courses)
+- [Leadership and Extracurriculurs](#leadership-extracurriculurs)
 
 ## Relevant Data Science Courses
 
@@ -29,7 +33,7 @@ nav_order: 8
 | Fairness and Algorithmic Decision Making |Python - Pandas, Scikit-learn; Jupyter Notebooks |
 
 
-## Relevant Machine Learning Courses
+## Relevant AI and Machine Learning Courses
 
 |Course|Skills and Technologies|
 |---|---|

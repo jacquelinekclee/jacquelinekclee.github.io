@@ -13,8 +13,6 @@ nav_order: 4
 
 <img src="{{site.baseurl}}/assets/project-files/sql-interview-helper-demo-with-openai.gif" style="width: 50%; height: auto;" alt="">
 
-<br>
-
 <div style="clear:both"> </div>
 
 # Summary 
@@ -89,7 +87,7 @@ env/bin/python -m streamlit run app.py
 ## Sources
 SQL exercises are sourced from [w3resource](https://www.w3resource.com/index.php). 
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 [share_badge]: https://static.streamlit.io/badges/streamlit_badge_black_white.svg
 [share_link]: https://sql-interview-practice.streamlit.app/
