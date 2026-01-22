@@ -18,7 +18,7 @@ nav_order: 8
 - [Relevant Data Science Courses](#relevant-data-science-courses)
 - [Relevant AI and Machine Learning Courses](#relevant-ai-and-machine-learning-courses)
 - [Relevant Statistics Courses](#relevant-statistics-courses)
-- [Leadership and Extracurriculurs](#leadership-extracurriculurs)
+- [Leadership and Extracurriculurs](#leadership-and-extracurriculurs)
 
 ## Relevant Data Science Courses
 
