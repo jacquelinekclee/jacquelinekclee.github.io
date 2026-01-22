@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 👩🏻‍💻 Skills
-nav_order: 4
+title: ⚙️ Skills
+nav_order: 7
 ---
 
 <p style = "float: right"> 
-    <h4 style = "float: right">👩🏻‍💻 Skills</h4>    
+    <h4 style = "float: right">⚙️ Skills</h4>    
 </p>
 
 {% assign skills = site.skills %}

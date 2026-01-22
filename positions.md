@@ -2,7 +2,7 @@
 layout: page
 title: 🏀 Random Forest and XGBoost - Predicting NBA Player Position
 description: Description of random forest and XGBoost project
-nav_order: 6
+nav_order: 5
 ---
 
 <p style = "float: left"> 
@@ -20,7 +20,7 @@ nav_order: 6
 # Summary
 Basketball has evolved over the years, with new players in each era putting their own stamp on the game. Despite more and more players being "unicorns" and teams' play styles changing constantly, how players are classified into positions (guard, forward, or center) has remained the same. I wanted to analyze the onset of "positionless" basketball, or the notion that traditional positions is increasingly less applicable to today's game and are more or less arbitrary. 
 
-This attempts to use player statistics to classify players as either a guard, forward, or center using 2 Machine Learning - random forest and XGBoost. In the end, the Random Forest model performed better. But, there were some players who were consistently misclassified and could thus be objectively considered as "unicorns." Read below to get more details on the data I used, how I built and evaluated the models, and the project's findings. 
+This attempts to use player statistics to classify players as either a guard, forward, or center using 2 Machine Learning algorithms - random forest and XGBoost. In the end, the Random Forest model performed better. But, there were some players who were consistently misclassified and could thus be objectively considered as "unicorns." Read below to get more details on the data I used, how I built and evaluated the models, and the project's findings. 
 
 # 👩🏻‍💻 Skills Used
 - Data cleaning

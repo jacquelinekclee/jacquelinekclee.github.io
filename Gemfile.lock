@@ -16,17 +16,20 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.4)
       concurrent-ruby (~> 1.0)
-    jekyll (4.3.2)
+    jekyll (4.4.1)
       addressable (~> 2.4)
+      base64 (~> 0.2)
       colorator (~> 1.0)
+      csv (~> 3.0)
       em-websocket (~> 0.5)
       i18n (~> 1.0)
       jekyll-sass-converter (>= 2.0, < 4.0)
       jekyll-watch (~> 2.0)
+      json (~> 2.6)
       kramdown (~> 2.3, >= 2.3.1)
       kramdown-parser-gfm (~> 1.0)
       liquid (~> 4.0)
-      mercenary (>= 0.3.6, < 0.5)
+      mercenary (~> 0.3, >= 0.3.6)
       pathutil (~> 0.9)
       rouge (>= 3.0, < 5.0)
       safe_yaml (~> 1.0)
@@ -45,8 +48,8 @@ GEM
       jekyll-include-cache
       jekyll-seo-tag (>= 2.0)
       rake (>= 12.3.1)
-    kramdown (2.4.0)
-      rexml
+    kramdown (2.5.1)
+      rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.4)
@@ -59,7 +62,7 @@ GEM
     public_suffix (5.0.4)
     rake (13.1.0)
     rb-fsevent (0.11.2)
-    rb-inotify (0.10.1)
+    rb-inotify (0.11.1)
       ffi (~> 1.0)
     rexml (3.2.6)
     rouge (4.2.0)
@@ -74,12 +77,12 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  arm64-darwin-23
-  x86_64-linux
+  arm64-darwin
+  x86_64-linux-gnu
 
 DEPENDENCIES
   jekyll (~> 4.3.2)
   just-the-docs (= 0.8.1)
 
 BUNDLED WITH
-   2.3.26
+   2.5.9
