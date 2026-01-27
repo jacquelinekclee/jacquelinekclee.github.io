@@ -45,9 +45,7 @@
                         {% endif %}
                     {% endfor %}
                 </div>
-                <div class="column" style="float: left; width: 50%;">
-                    <!-- Second half -->
-                    <h3> </h3>           
+                <div class="column" style="float: left; width: 50%;">     
                     {% assign start = half | plus: 1 %}
                     {% assign end = technologies.size | minus: 1 %}
                     {% for i in (start..end) %}
@@ -57,19 +55,12 @@
             </div>
         {% endif %}
         <br>
-        <h3>Key Accomplishments</h3>
-        <div class="row">
-            {% if page.accomplishment1 %}
-            <p title="accomplishment1">✅ {{ page.accomplishment1 }}</p>
-            {% endif %}
-
-            {% if page.accomplishment2 %}
-            <p title="accomplishment2">✅ {{ page.accomplishment2 }}</p>
-            {% endif %}
-
-            {% if page.accomplishment3 %}
-            <p title="accomplishment3">✅ {{ page.accomplishment3 }}</p>
-            {% endif %}
-        </div>
+        {% if page.findings %}
+            <h3>Key Accomplishments</h3>
+            {% assign accomplishments = page.accomplishments %}
+            {% for accomplishment in accomplishments %}
+                <p>✅ {{ accomplishment }}</p>
+            {% endfor %}
+        {% endif %}
     </div>
 </div>
