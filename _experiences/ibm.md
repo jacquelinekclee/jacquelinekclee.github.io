@@ -22,5 +22,5 @@ technologies:
     - ZoomInfo
     - Microsoft Excel
     - Microsoft PowerPoint
-    - Microsoft CoPilot
+    - Microsoft Copilot
 ---

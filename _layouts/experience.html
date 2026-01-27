@@ -1,3 +1,84 @@
+<head>
+    <style>
+    /* Set additional styling options for the columns*/
+    .column {
+        float: left;
+        width: 50%;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    </style>
+ </head>
+
+<div class="experience">
+    <hr>
+    <div>
+
+        {% if page.photo %}
+        <a id = "{{page.section}}">
+            <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
+            class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
+        </a>
+        {% endif %}
+
+        <h2 class="company">
+            <a href="{{ page.link }}">{{ page.company }}</a>
+        </h2>
+
+        <div class="label label-purple" style="background-color: #b188fc;"><b>{{ page.experience-title }}</b></div>
+
+        
+        <p> 📆 {{ page.startdate }} - {{ page.enddate }}
+            {% if page.location %}
+                &emsp;📍 {{ page.location }}
+             {% endif %}
+        </p>
+        
+
+        <div style="clear: both;"></div>
+
+        {% if page.role %}
+        <h3>My Role</h3>
+        <p title="My Role">👩🏻‍💻 {{ page.role }}</p>
+        {% endif %}
+
+        {% if page.technologies %}
+            <h3>Technologies Used</h3>            
+            <div class="row">
+                <div class="column" style="float: left; width: 50%;">
+                    {% assign technologies = page.technologies %}
+                    {% assign half = technologies.size | divided_by: 2 %}
+                    <!-- First half -->
+                    {% for i in (0..half) %}
+                        {% if technologies[i] %}
+                            <p>⚙️ {{ technologies[i] }}</p>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="column" style="float: left; width: 50%;">     
+                    {% assign start = half | plus: 1 %}
+                    {% assign end = technologies.size | minus: 1 %}
+                    {% for i in (start..end) %}
+                        <p>⚙️ {{ technologies[i] }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+
+        {% if page.accomplishments %}
+            <h3>Key Accomplishments</h3>
+            {% assign accomplishments = page.accomplishments %}
+            {% for accomplishment in accomplishments %}
+                <p>✅ {{ accomplishment }}</p>
+            {% endfor %}
+        {% endif %}
+  
+    </div>
+</div>
 
 <div class="experience">
     <hr>
@@ -40,27 +121,6 @@
             {% endfor %}
         {% endif %}
 
-        {% if page.technologies %}
-            <h3>Technologies Used</h3>            
-            <div class="row">
-                <div class="column" style="float: left; width: 50%;">
-                    {% assign technologies = page.technologies %}
-                    {% assign half = technologies.size | divided_by: 2 %}
-                    <!-- First half -->
-                    {% for i in (0..half) %}
-                        {% if technologies[i] %}
-                            <p>⚙️ {{ technologies[i] }}</p>
-                        {% endif %}
-                    {% endfor %}
-                </div>
-                <div class="column" style="float: left; width: 50%;">     
-                    {% assign start = half | plus: 1 %}
-                    {% assign end = technologies.size | minus: 1 %}
-                    {% for i in (start..end) %}
-                        <p>⚙️ {{ technologies[i] }}</p>
-                    {% endfor %}
-                </div>
-            </div>
-        {% endif %}
+        
     </div>
 </div>
