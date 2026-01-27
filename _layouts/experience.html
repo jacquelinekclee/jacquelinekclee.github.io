@@ -12,7 +12,7 @@
         clear: both;
     }
     </style>
- </head>
+</head>
 
 <div class="experience">
     <hr>
@@ -77,50 +77,5 @@
             {% endfor %}
         {% endif %}
   
-    </div>
-</div>
-
-<div class="experience">
-    <hr>
-    <div>
-
-        {% if page.photo %}
-        <a id = "{{page.section}}">
-            <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
-            class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
-        </a>
-        {% endif %}
-
-        <h2 class="company">
-            <a href="{{ page.link }}">{{ page.company }}</a>
-        </h2>
-
-        <div class="label label-purple" style="background-color: #b188fc;"><b>{{ page.experience-title }}</b></div>
-
-        
-        <p> 📆 {{ page.startdate }} - {{ page.enddate }}
-            {% if page.location %}
-                &emsp;📍 {{ page.location }}
-             {% endif %}
-        </p>
-        
-
-        <div style="clear: both;"></div>
-
-        {% if page.role %}
-        <h3>My Role</h3>
-        <p title="My Role">👩🏻‍💻 {{ page.role }}</p>
-        {% endif %}
-
-        <br>
-        {% if page.accomplishments %}
-            <h3>Key Accomplishments</h3>
-            {% assign accomplishments = page.accomplishments %}
-            {% for accomplishment in accomplishments %}
-                <p>✅ {{ accomplishment }}</p>
-            {% endfor %}
-        {% endif %}
-
-        
     </div>
 </div>
