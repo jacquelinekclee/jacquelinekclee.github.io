@@ -17,14 +17,22 @@ nav_order: 7
 
 ## Tools and Platforms 
 ⚙️ Jupyter Notebooks
+
 ⚙️ Git
+
 ⚙️ Bash
+
 ⚙️ Docker
 
 ## Sales
 ⚙️ Technical Presentations and Demos
+
 ⚙️ Salesforce (Sales Cloud, Dashboards)
+
 ⚙️ ZoomInfo
+
 ⚙️ LinkedIn Sales Navigator
+
 ⚙️ LinkedIn and Email Prospecting
+
 ⚙️ Microsoft Copilot AI-powered Prospecting  

@@ -31,13 +31,21 @@
         <p title="My Role">👩🏻‍💻 {{ page.role }}</p>
         {% endif %}
 
+        <br>
+        {% if page.accomplishments %}
+            <h3>Key Accomplishments</h3>
+            {% assign accomplishments = page.accomplishments %}
+            {% for accomplishment in accomplishments %}
+                <p>✅ {{ accomplishment }}</p>
+            {% endfor %}
+        {% endif %}
+
         {% if page.technologies %}
             <h3>Technologies Used</h3>            
             <div class="row">
                 <div class="column" style="float: left; width: 50%;">
                     {% assign technologies = page.technologies %}
                     {% assign half = technologies.size | divided_by: 2 %}
-
                     <!-- First half -->
                     {% for i in (0..half) %}
                         {% if technologies[i] %}
@@ -53,14 +61,6 @@
                     {% endfor %}
                 </div>
             </div>
-        {% endif %}
-        <br>
-        {% if page.accomplishments %}
-            <h3>Key Accomplishments</h3>
-            {% assign accomplishments = page.accomplishments %}
-            {% for accomplishment in accomplishments %}
-                <p>✅ {{ accomplishment }}</p>
-            {% endfor %}
         {% endif %}
     </div>
 </div>
