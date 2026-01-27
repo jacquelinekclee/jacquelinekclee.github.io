@@ -1,23 +1,24 @@
+
 <head>
     <style>
+   
     /* Set additional styling options for the columns*/
     .column {
-        float: left;
-        width: 50%;
+    float: left;
+    width: 50%;
     }
 
     .row:after {
-        content: "";
-        display: table;
-        clear: both;
+    content: "";
+    display: table;
+    clear: both;
     }
     </style>
-</head>
+ </head>
 
-<div class="experience">
+<div class="project">
     <hr>
     <div>
-
         {% if page.photo %}
         <a id = "{{page.section}}">
             <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
@@ -31,7 +32,8 @@
 
         <div class="label label-purple" style="background-color: #b188fc;"><b>{{ page.experience-title }}</b></div>
 
-        
+        <div style="clear: both;"></div>
+
         <p> 📆 {{ page.startdate }} - {{ page.enddate }}
             {% if page.location %}
                 &emsp;📍 {{ page.location }}
@@ -44,6 +46,14 @@
         {% if page.role %}
         <h3>My Role</h3>
         <p title="My Role">👩🏻‍💻 {{ page.role }}</p>
+        {% endif %}
+
+        {% if page.accomplishments %}
+            <h3>Key Accomplishments</h3>
+            {% assign accomplishments = page.accomplishments %}
+            {% for accomplishment in accomplishments %}
+                <p>✅ {{ accomplishment }}</p>
+            {% endfor %}
         {% endif %}
 
         {% if page.technologies %}
@@ -68,14 +78,5 @@
                 </div>
             </div>
         {% endif %}
-
-        {% if page.accomplishments %}
-            <h3>Key Accomplishments</h3>
-            {% assign accomplishments = page.accomplishments %}
-            {% for accomplishment in accomplishments %}
-                <p>✅ {{ accomplishment }}</p>
-            {% endfor %}
-        {% endif %}
-  
     </div>
 </div>
