@@ -13,7 +13,6 @@ accomplishments:
     - Engineered and demoed proof of concept Al agent with custom integrations and tools (prompt engineering, Python, APls) for large tech company, leading to $200K+ in SaaS usage and services deal.
     - Expanded software adoption at Fortune 10 retailer ahead of Enterprise Licensing Agreement, making Al and Automation portfolio 30% of total SXM ELA and over-achieving SaaS quota (105% attainment).
     - Proved technical value in pre-sales and post-sales by delivering client demos and presentations, designing architectures, and developing proofs of concept of AI solutions that identified ~$2M in sales opportunities. 
-
 technologies: 
     - Generative AI, Prompt Engineering (IBM watsonx.ai, Python SDK for Inferencing)
     - AI Agent development (Python, IBM watsonx Orchestrate)

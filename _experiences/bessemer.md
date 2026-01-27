@@ -7,7 +7,6 @@ photo: /assets/company-logos/bess.png
 location: San Francisco, CA
 startdate: 06/2022
 enddate: Present
-
 accomplishments:
     - Selected as 1 of 20 fellows from 2,000+ applicants and 60+ finalists; portfolio company directly reached out.
     - Engaged in entrepreneurship studies with founders and product leaders from the venture capital industry.
