@@ -35,7 +35,6 @@
             <h3>Technologies Used</h3>            
             <div class="row">
                 <div class="column" style="float: left; width: 50%;">
-                    <h3>Technologies Used</h3>           
                     {% assign technologies = page.technologies %}
                     {% assign half = technologies.size | divided_by: 2 %}
 
@@ -59,18 +58,18 @@
         {% endif %}
         <br>
         <h3>Key Accomplishments</h3>
+        <div class="row">
+            {% if page.accomplishment1 %}
+            <p title="accomplishment1">✅ {{ page.accomplishment1 }}</p>
+            {% endif %}
 
-        {% if page.accomplishment1 %}
-        <p title="accomplishment1">✅ {{ page.accomplishment1 }}</p>
-        {% endif %}
+            {% if page.accomplishment2 %}
+            <p title="accomplishment2">✅ {{ page.accomplishment2 }}</p>
+            {% endif %}
 
-        {% if page.accomplishment2 %}
-        <p title="accomplishment2">✅ {{ page.accomplishment2 }}</p>
-        {% endif %}
-
-        {% if page.accomplishment3 %}
-        <p title="accomplishment3">✅ {{ page.accomplishment3 }}</p>
-        {% endif %}
-      
+            {% if page.accomplishment3 %}
+            <p title="accomplishment3">✅ {{ page.accomplishment3 }}</p>
+            {% endif %}
+        </div>
     </div>
 </div>
