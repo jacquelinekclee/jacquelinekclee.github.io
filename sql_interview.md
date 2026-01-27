@@ -13,8 +13,6 @@ nav_order: 4
 
 <img src="{{site.baseurl}}/assets/project-files/sql-interview-helper-demo-with-openai.gif" style="width: 50%; height: auto;" alt="">
 
-<div style="clear:both"> </div>
-
 # Summary 
 
 Back in Fall 2022 at UC San Diego, my classmates and I built a Data Science Interview helper leveraging GPT 3.5 for the final project of the course Deep Learning for Natural Language Understanding. This was right around the time ChatGPT first released, and we couldn't have predicted what was to come. You can see the final paper we submitted [here](https://github.com/jacquelinekclee/sql-interview-helper/blob/main/lign_167_final_paper.pdf) for all the details.
@@ -38,7 +36,7 @@ My portion was the SQL practice portion. I've taken that code and revamped it to
 
 [![Try it in Streamlit][share_badge]][share_link] 
 
-# Table of contents
+# On this page
 
 - [Set Up](#set-up)
 - [Run the SQL Interview Helper](#run-the-sql-interview-helper)

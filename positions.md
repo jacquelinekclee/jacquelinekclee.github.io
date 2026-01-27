@@ -37,7 +37,7 @@ This attempts to use player statistics to classify players as either a guard, fo
 - [Website](https://jacquelinekclee.github.io/nba-players-position-classifier/)
 - [Repository (with all relevant files/data)](https://github.com/jacquelinekclee/nba-players-position-classifier)
 
-# Table of contents
+# On this page
 
 - [Background](#background)
 - [The Statistics](#the-statistics)
@@ -59,7 +59,7 @@ With this project, I hope to understand basketball positions using statistics an
 
 Keep reading to learn more about the data used, the approach I took to building this classifier, and the cool findings the model yielded!
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## The Statistics
 The NBA tracks almost 50 different statistics for every player in the league. Many statistics are often unknown to most basketball fans, so using only the common statistics will make the most sense for everyone. 
@@ -71,7 +71,7 @@ Here are some basic definitions of the statistics I will be using in my classifi
 - Blocks per game (BPG): a metric that shows how many total blocks a player averages per game.
 - Steals per game (SPG): a metric that shows how many total steals a player averages per game.
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## Statistics Source
 The training data comes from [Kaggle](https://www.kaggle.com/drgilermo/nba-players-stats?select=Seasons_Stats.csv). The test data come from [Basketball Reference](https://www.basketball-reference.com/):
@@ -79,7 +79,7 @@ The training data comes from [Kaggle](https://www.kaggle.com/drgilermo/nba-playe
 - [2020-21 Data](https://www.basketball-reference.com/leagues/NBA_2021_per_game.html)
 - [2021-22 Data](https://www.basketball-reference.com/leagues/NBA_2022_per_game.html)
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## Usage
 
@@ -87,7 +87,7 @@ Please refer to the [Jupyter Notebook Viewer](https://nbviewer.org/github/jacque
 
 The [source file](#source-file) contains all the functions used to clean/manipulate the data and DataFrames.
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## The Methodology
 
@@ -114,7 +114,7 @@ I tried both random forest modesl and XGBoost models. I went with random forests
 - All Star: whether that player was an All Star that season
 - MVP: whether that player was the MVP that season
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## Training
 Using Scikit's `GridSearchCV`, I tested out several combinations of different hyperparameters. The training times for both models were extremely *long*. See below for the paramters tested for each type of model:
@@ -167,7 +167,7 @@ Based on the findings above, I went with a Random Forest model with TS%, RPG, AP
 
 Clearly, this model performed much better than the 1st round. However, it started performing worse for the more recent seasons. This may be some indication of a shift coming in basketball, where players' statistics and general playstyles don't reflect the typical notions of positions in seasons prior. 
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## Findings
 Draymond Green, Ben Simmons, Giannis Antetokounmpo, LeBron James, Kevin Durant, Nikola Jokić, and Jayson Tatum are some consensus "positionless" NBA players (see this [CBS article]('https://bleacherreport.com/articles/2627364-5-unique-nba-players-who-dont-fit-in-a-category') and this [Blearcher Report article]('https://bleacherreport.com/articles/2627364-5-unique-nba-players-who-dont-fit-in-a-category')). One might expect the classifier to predict these players' posititions *incorrectly* if they are truly "positionless." As with all things basketball, several things transcend the stat sheet, but hopefully these results provide some interesting insights! The table below shows the correct position (Pos) and the model's prediction (pos_pred) for these "positionless" players:
@@ -189,7 +189,7 @@ In the 2020-21 season, Draymond Green was listed as a forward, but misclassified
 
 Hopefully some of these insights were interesting! Please feel free to explore the Python notebooks on your own!
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## Source File
 - [nba_players_classification.py](https://github.com/jacquelinekclee/nba-players-position-classifier/blob/0d3b4b07abce345b5b50566b95ac793e7ba10c5d/nba_players_classification.py)
@@ -198,4 +198,4 @@ Hopefully some of these insights were interesting! Please feel free to explore t
 ## Legality
 This personal project was made for the sole intent of applying my skills in Python thus far and as a way to learn new ones. It is intended for non-commercial uses only.
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)

@@ -41,7 +41,7 @@ After [selecting songs to analyze](#song-selection), [deriving metrics to calcul
 # Links
 - [Repository (with all code and other files)](https://github.com/jacquelinekclee/hiphop_nlp_webscrape/)
 
-# Table of contents
+# On this page
 
 - [Background](#background)
 - [Song Selection](#song-selection)
@@ -62,7 +62,7 @@ Many fans believe that rap music has gotten worse over the years, crediting this
 
 To answer this question, I will be analyzing the lyrics of the best rap song from every year from 1990 to 2020. 
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## Song Selection
 Songs from 1990-2003 will be pulled from **Complex article, ["The Best Rap Song, Every Year Since 1979"](https://www.complex.com/music/best-rap-songs-since-1979/)** and the songs from 2004-2020 will be the winners of the **[Grammy Award for Best Rap Song](https://en.wikipedia.org/wiki/Grammy_Award_for_Best_Rap_Song#Recipients)** (first awarded in 2004).
@@ -70,12 +70,12 @@ Songs from 1990-2003 will be pulled from **Complex article, ["The Best Rap Song,
 * "The Choice Is Yours" by Black Sheep is not on AZLyrics and also not on Spotify, so I will use one of Complex's honorable mentions, "My Mind Playin' Tricks On Me" by Geto Boys.
 * Complex's choice for 2002 ("Lose Yourself" by Eminem) is the same as the 2004 Best Rap Song recipient, so similarly I will use one of Complex's honorable mentions, "Grindin" by The Clipse.
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## Lyrics Source
 The lyrics for each will be scraped from **[AZLyrics](https://www.azlyrics.com/)**. Since these lyrics are user submitted, the formatting of lyrics is variable. This variation is largely in how chorus lyrics are posted. For example, one song may have all the lyrics to the entire chorus typed out each time whereas another may just use '[Chorus]' or '[2x]' to avoid repetition. My hope is that this will not affect the metrics too much, as songs with shorter/less repetitive choruses can indicate a song's greater substance and lyrical quality.
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## Metrics:
 * Proportion of unique words to total words, excluding stop words.
@@ -91,7 +91,7 @@ The lyrics for each will be scraped from **[AZLyrics](https://www.azlyrics.com/)
   * The fucntions used to analyze rhymes use the Carnegie Mellon University Pronouncing Dictionary. Therefore, the creativity and accents rapper use to manipulate different rhymes will unfortunately not be detected. Thus, this measure will be analyzed with a grain of salt.
 * Additionally, I will also be looking at the most common words (excluding stop words) for each song. This measure is much more subjective than the others, but could potentially give insight into a song's substance.
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 Here are some quick definitions of terms used in this project:
 * **[Bar](https://www.lexico.com/en/definition/bar)**: One line of lyrics. Detected by line break characters. Typically takes four beats.
@@ -100,12 +100,12 @@ Here are some quick definitions of terms used in this project:
 * **[Vowel rhyme](https://www.thefreedictionary.com/vowel+rhyme)**: When the vowel sound of two words are phonetically the same, e.g. green and seem.
 * **[Stop word](https://www.geeksforgeeks.org/removing-stop-words-nltk-python)**: A word that does not contribute much meaning, e.g. the, a, an. Search engines are programmed to ignore these words, and ignoring these words both save processing time and allow us to analyze lyrics more meaningfully.
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## Goal
 As stated above, this project has some limitations in terms of the consistency of lyric data, the extent to which the packages/tools used can analyze rap lyrics, and the overall subjectivity of this topic. Ultimately, I started this project as a fun way to both explore one of my interests and utilize the skills and technical knowledge I have learned thus far. But, I certainly believe that the results of this project can give insight into how rap music has evolved over the years.
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## Usage
 
@@ -113,7 +113,7 @@ Please refer to the [Jupyter Notebook viewer](https://nbviewer.jupyter.org/githu
 
 The [source files](#source-files) contain all the functions used to web scrape, process the text, and calcualte the metrics used for the project.
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
 
 ## Findings
 While all four metrics seemed to decline over the years, **% Unique Rhymes to All Rhymes** (number of unique rhymes / number of all rhymes) proved to be the metric with:
@@ -128,7 +128,7 @@ As mentioned above, hip-hop has become the most popular genre of music. With thi
 
 Overall, this project gives evidence that hip-hop as a genre has not seen a dramatic decline. Instead, changing trends in the music industry and how the public consumes media may affect what types of songs become most popular, but not necessarily the skills of all rappers.  
 
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)
  
 ## Source Files
 * [web_scrape.py](https://github.com/jacquelinekclee/hiphop_nlp_webscrape/blob/master/web_scrape.py)
@@ -146,4 +146,4 @@ Overall, this project gives evidence that hip-hop as a genre has not seen a dram
  Some issues with webscraping from AZLyrics arose as I was developing this project because the website detected an unusual amount of activity. An alternative to AZLyrics is
  [archive.org](https://archive.org/), a website that regularly stores archives for various webpages. Nonetheless, using the [Jupyter Notebook viewer](https://nbviewer.jupyter.org/github/jacquelinekclee/hiphop_nlp_webscrape/blob/master/Has%20Hip-Hop%20Gotten%20Worse_.ipynb) should not present any issues.
  
-[(Back to top)](#table-of-contents)
+[(Back to top)](#summary)

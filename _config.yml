@@ -49,6 +49,7 @@ collections:
     permalink: /:collection/:path/
     output: true
     order:
+      - gen_ai.md
       - python.md
       - sql.md
       - aws.md
