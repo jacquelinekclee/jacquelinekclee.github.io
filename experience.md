@@ -2,7 +2,7 @@
 layout: page
 title: 💼 Work Experience
 description: A listing of all relevant work experience
-nav_order: 1
+nav_order: 2
 ---
 
 <p style = "float: right"> 
@@ -12,5 +12,4 @@ nav_order: 1
 {% assign experiences = site.experiences %}
 {% for exp in experiences %}
     {{ exp }}
-    <br>
 {% endfor %}

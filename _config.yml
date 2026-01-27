@@ -4,15 +4,15 @@ author: Jacqueline Lee
 theme: just-the-docs
 color_scheme: custom-dark-theme
 
-url: https://jacquelinekclee.github.io/new-portfolio
-baseurl: /new-portfolio
+url: https://jacquelinekclee.github.io
+baseurl: /
 
 search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
   Resume:
-  - 'https://jacquelinekclee.github.io/new-portfolio/jacqueline_lee_resume_122023.pdf'
+  - 'https://jacquelinekclee.github.io/jacqueline_lee_resume_solutions_engineer_portfolio.pdf'
   LinkedIn:
     - 'https://www.linkedin.com/in/jacqueline-kc-lee/'
   Email Me:
@@ -40,13 +40,30 @@ collections:
       - ballertv.md
       - bessemer.md
       - te.md
-  # projects:
-  # skills:
+  projects:
+    permalink: /:collection/:path/
+    output: true
+    order:
+      - fairness-nypd.md
+  skills:
+    permalink: /:collection/:path/
+    output: true
+    order:
+      - gen_ai.md
+      - python.md
+      - sql.md
+      - aws.md
+      - javascript.md
+      - ruby.md
 # Default layouts for each collection type
 
 just-the-docs:
   collections:
     experiences:
+      nav_fold: true
+    projects:
+      nav_fold: true
+    skills:
       nav_fold: true
     
 defaults:
@@ -58,16 +75,17 @@ defaults:
       layout: experience
       subpath: '/assets/company-logos/'
 
-  # - scope:
-  #     path: ''
-  #     type: projects
-  #   values:
-  #     layout: project
-  #     subpath: '/assets/project-images/'
-  # - scope:
-  #     path: ''
-  #     type: skills
-  #   values:
-  #     layout: skill
-  #     subpath: '/assets/skill-logos/'
+  - scope:
+      path: ''
+      type: projects
+    values:
+      layout: project
+      subpath: '/assets/project-files/'
+
+  - scope:
+      path: ''
+      type: skills
+    values:
+      layout: skill
+      subpath: '/assets/skills/'
  

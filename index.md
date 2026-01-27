@@ -1,35 +1,17 @@
 ---
-title: Home
+title: 👋🏻 About Me | Home Page
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# 👋🏻 Welcome to my Portfolio!
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Hello! I'm Jacqueline, experienced Sales/Solutions Engineer with a technical background in Data Science and Software Engineering. For 2 years, I was an [AI Technical Sales Engineer (aka Solutions Engineer) at IBM](experience) for enterprise customers (e.g., some of the biggest tech and retail companies in the world). I graduated from UC San Diego with a B.S. in Data Science and minors in Economics and Business in 2023. Here, you'll find details on my favorite Data Science/AI [projects](project), my [work experience](experience), and my [education](education). 
 
-More specifically, the created site:
+During my undergraduate career, I [interned](experience) at  manufacturer TE Connectivity on their Data Science and Advanced Analytics team and sports media tech startup BallerTV on their Engineering team. On [campus](education), I participated in student government, representing the 40,000+ students at UC San Diego in funding decisions, and pro-bono consulting, working with local San Diego small businesses.  
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+Since starting my Data Science journey back in 2019, I've loved using data and data science to explore my personal interests, like [rap music](hiphop) and topics that could have an impact on the world, like [preventative health care](twas). 
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+Outside of work, I enjoy cooking and baking, traveling, basketball, and concert-going. Click the links in the menu to learn more about my background and experience. You can also find my [resume](https://jacquelinekclee.github.io/jacqueline_lee_resume_solutions_engineer_portfolio.pdf) below and [contact info](https://www.linkedin.com/in/jacqueline-kc-lee/) at the top or by clicking the corresponding icons.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+<a href="https://jacquelinekclee.github.io/jacqueline_lee_resume_solutions_engineer_portfolio.pdf"><img style="height: auto;" src="{{site.baseurl}}/jacqueline_lee_resume_solutions_engineer_portfolio.jpg" alt=""></a>

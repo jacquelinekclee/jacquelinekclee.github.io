@@ -1,0 +1,76 @@
+
+ <head>
+    <style>
+   
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
+ </head>
+
+<div class="project">
+    <hr>
+    <div>
+        {% if page.photo %}
+            <img style="border-radius: 50%; height: 100px; float: left; margin: 1px 1px 1px 1px;"
+            class = "photo" src="{{site.baseurl}}{{page.photo}}" alt="">
+        {% endif %}
+
+        <h2 class="project">
+            {{ page.project-title }}
+        </h2>
+
+        {% if page.repo %}
+        <h4 class="project">
+            <a href="{{ page.repo }}">GitHub Repository</a>
+        </h4>
+        {% endif %}
+
+        <div style="clear: both;"></div>
+
+        {% if page.description %}
+            <h3>Project Summary</h3>
+            <p title="Project Summary">{{ page.description }}</p>
+        {% endif %}
+
+        {% if page.skills %}
+
+        <div class="row">
+            <div class="column" style="float: left; width: 50%;">
+                <h3>Skills</h3>
+                {% assign skill = page.skills %}
+                {% for sk in skill %}
+                    <p>🧠 {{ sk }}</p>
+                {% endfor %}
+            </div>
+            <div class="column" style="float: left; width: 50%;">
+                <h3>Technologies Used</h3>
+                {% assign tech = page.technologies %}
+                {% for t in tech %}
+                    <p>⚙️ {{ t }}</p>
+                {% endfor %}
+            </div>
+        </div>
+
+        {% endif %}
+
+        {% if page.findings %}
+
+            <h3>Key Findings</h3>
+
+            {% assign findings = page.findings %}
+            {% for finding in findings %}
+                <p>💡 {{ finding }}</p>
+            {% endfor %}
+        {% endif %}
+    </div>
+</div>
+
