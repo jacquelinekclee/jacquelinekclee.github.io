@@ -35,15 +35,13 @@ For running locally, see the [instructions below](#run-play-back-locally).
 - `bash` for configuring the data processing and model building pipeline to give users a command-line experience  
 
 # Links
-- [Repository (with all code and other files)](https://github.com/jacquelinekclee/lastfm_analysis)
-
 [![Try it in Streamlit][share_badge]][share_link] 
+- [Repository (with all code and other files)](https://github.com/jacquelinekclee/lastfm_analysis)
 
 # On this page
 
 - [Run Play Back Locally](#run-play-back-locally)
-- [Run the SQL Interview Helper](#run-the-sql-interview-helper)
-- [Sources](#sources)
+- [Listening Session Clustering Model](#listening-session-clustering-model)
 
 # Run Play Back Locally
 
@@ -117,6 +115,36 @@ To test any of the scripts, simply include `test` as shown below. `test` must be
 ```bash
 python3 run.py test {n_clusters}
 ```
+
+[(Back to top)](#summary)
+
+# Listening Session Clustering Model
+## Background
+I wanted to uncover whether there are any trends in my listening habits in order to more deeply understand not only *what* I listen to, but *how* I listen to that music. To do so, I:
+1. Extracted "listening sessions" from my raw streaming data tracked by last.fm. A listening session is defined by consecutive streams of songs with no less than 10 minutes in between each stream to account for long songs and brief interruptions. 
+2. Trained a k-means clustering model so machine learning can identify my typical listening patterns. 
+
+After processing the data, extracting listening sessions, calculating listening session metrics, like proportion of unique artists, albums, and songs listened to, and scaling these features, I was ready to train my clustering models. 
+
+## Model Training
+Since my original listening session data had 10+ features detailing session length, date and time, and diversity of music, many of which were highly correlated, I knew I had to implement some sort of feature selection/dimensionality reduction technique. I looked into 2 options:
+1. Reviewing multicollinearity with a correlation matrix and selecting features that aren't highly correlated with one another
+2. Leveraging principal component analysis to calculate 2-3 condensed features that capture all the variance in my listening sessions data. 
+
+For both options, I leveraged the elbow method to land on an optimal `k`, or number of clusters. Based on this method, `k=4` was the optimal choice across both techniques described abov. 
+
+## Model Selection
+I analyzed cardinality, centroid distances, and magnitude (sum of distances of each point/session from its cluster centroid), the model that leveraged simple feature filtering proved to be best. Cardinality and average centroid distances were relatively uniform across al 4 clusters and cardinality vs. magnitude saw the stronger positive correlation (ideal since the greater the number of examples in a cluster, the greater we expect the total distance to be). 
+
+## Clustering Output Analysis 
+After reviewing inter- and intra-cluster distributions for the various features of each listening session (e.g., time of day, diversity of music, and whether any first listens occured), I identified the key characteristics of each cluster. With the help of Claude, I defined my listening session clusters:
+1. Weekend wind down: sessions typically on the weekends that consist of my go-to songs and favorite artists. 
+2. New discovery: sessions where I catch up singles released on new music Friday or listen to an album in full for the first time soon after its release. 
+3. Deep dive marathon: sessions during which I'm listening to some sort of playlist or assortment of songs. I predict these are from long commutes or gym sessions.
+4. Late night faves: quick listening sessions during late nights or the wee hours of the morning where I'm jamming to my old reliables. 
+
+See listening session examples of each of these clusters in [Play Back on Streamlit][share_link], and then build your own clustering model to uncover similar insights! 
+
 
 [(Back to top)](#summary)
 

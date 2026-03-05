@@ -32,9 +32,8 @@ My portion was the SQL practice portion. I've taken that code and revamped it to
 - `Streamlit` for building the web app user interface
 
 # Links
-- [Repository (with all code and other files)](https://github.com/jacquelinekclee/sql-interview-helper/tree/main)
-
 [![Try it in Streamlit][share_badge]][share_link] 
+- [Repository (with all code and other files)](https://github.com/jacquelinekclee/sql-interview-helper/tree/main)
 
 # On this page
 
