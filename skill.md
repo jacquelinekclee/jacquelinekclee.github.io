@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ⚙️ Skills
-nav_order: 7
+nav_order: 8
 ---
 
 <p style = "float: right"> 

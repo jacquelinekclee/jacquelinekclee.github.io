@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 🎓 Education 
-nav_order: 8
+nav_order: 9
 ---
 
 <p style = "float: right"> 

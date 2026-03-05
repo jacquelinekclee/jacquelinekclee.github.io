@@ -2,7 +2,7 @@
 layout: page
 title: 🏀 Random Forest and XGBoost - Predicting NBA Player Position
 description: Description of random forest and XGBoost project
-nav_order: 5
+nav_order: 6
 ---
 
 <p style = "float: left"> 

@@ -4,19 +4,19 @@
    
     /* Set additional styling options for the columns*/
     .column {
-    float: left;
-    width: 50%;
+        float: left;
+        width: 50%;
     }
 
     .row:after {
-    content: "";
-    display: table;
-    clear: both;
+        content: "";
+        display: table;
+        clear: both;
     }
     </style>
  </head>
 
-<div class="project">
+<div class="experience">
     <hr>
     <div>
         {% if page.photo %}
@@ -34,11 +34,16 @@
 
         <div style="clear: both;"></div>
 
-        <p> 📆 {{ page.startdate }} - {{ page.enddate }}
-            {% if page.location %}
-                &emsp;📍 {{ page.location }}
-             {% endif %}
-        </p>
+        <div class="row">
+            <div class="column" style="float: left; width: 50%;">
+                <p text-align="left"> 📆 {{ page.startdate }} - {{ page.enddate }}
+            </div>
+            <div class="column" style="float: left; width: 50%;">     
+                {% if page.location %}
+                    <p text-align="right">📍 {{ page.location }}</p>
+                {% endif %}
+            </div>
+        </div>
         
 
         <div style="clear: both;"></div>

@@ -2,7 +2,7 @@
 layout: page
 title: 🧬 Bash, Python, ETL, and Regression – Finding Genes Associated with IBD
 description: Description of capstone project
-nav_order: 6
+nav_order: 7
 ---
 
 # 🧬 Bash/Python/ETL/Regression – Transcriptome-Wide Association Studies for Finding Genes Associated with IBD
